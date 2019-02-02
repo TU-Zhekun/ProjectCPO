@@ -50,6 +50,7 @@ public class ClientHttp {
             System.out.println("ConnectionReussite");
         } catch (IOException ex) {
             System.out.println("ConnectionNonReussite");
+            System.out.println(ex.toString());
             return false;
         }
         return true;
