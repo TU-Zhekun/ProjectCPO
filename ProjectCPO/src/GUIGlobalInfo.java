@@ -42,21 +42,22 @@ public class GUIGlobalInfo extends JFrame {
         //frame.setVisible(true);
 
         //setup JLabelModule
-        labelModule.setBounds(50, 50, 300, 30);
-        labelModule.setForeground(white);
-        labelModule.setFont(impactTitle);
-        this.add(labelModule);
+        //labelModule.setBounds(50, 50, 300, 30);
+        //labelModule.setForeground(white);
+        //labelModule.setFont(impactTitle);
+        //this.add(labelModule);
 
         //setup JLabelInfoModule
         labelInfoModule.setText(infoModule);
-        labelInfoModule.setBounds(5, 5, 300, 40);
+        labelInfoModule.setBounds(50, 50, 300, 30);
         labelInfoModule.setForeground(white);
-        labelInfoModule.setFont(mg);
+        labelInfoModule.setFont(impactTitle);
         this.add(labelInfoModule);
 
         //setup JLabelTime
-        labelTime.setBounds(50, 100, 40, 30);
+        labelTime.setBounds(120, 110, 100, 30);
         labelTime.setForeground(white);
+        labelTime.setFont(impactTitle);
         this.add(labelTime);
 
         //setup JLabelInfoTime
