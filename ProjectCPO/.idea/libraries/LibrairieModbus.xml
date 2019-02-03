@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="LibrairieModbus">
     <CLASSES>
-      <root url="jar://D:/EPF/Projet_CPO_allDocument/code/ProjectCPO/lib/LibrairieModbus.jar!/" />
       <root url="jar://$PROJECT_DIR$/library/LibrairieModbus.jar!/" />
     </CLASSES>
     <JAVADOC />
