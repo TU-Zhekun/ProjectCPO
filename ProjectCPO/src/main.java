@@ -7,7 +7,10 @@ public class main {
         guiGlobalInfo.setTextLabelInfoModule("nullMod");
         guiGlobalInfo.showGUI();
         */
-        GUISignIn guiSignIn = new GUISignIn();
-        guiSignIn.showGUI();
+        //GUISignIn guiSignIn = new GUISignIn();
+        //guiSignIn.showGUI();
+        GUISetting guiSetting = new GUISetting();
+        guiSetting.showGUI();
+
     }
 }

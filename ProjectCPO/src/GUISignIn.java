@@ -25,9 +25,10 @@ public class GUISignIn extends JFrame {
 
     public GUISignIn() {
         //setup this GUI
-        this.setBounds(500,400,600,400);
+        this.setBounds(500,400,550,400);
         this.setLayout(null);
         this.getContentPane().setBackground(bgColor);
+        this.setResizable(false);
 
         //setup label1
         label1 = new JLabel("Sign in");
@@ -74,6 +75,7 @@ public class GUISignIn extends JFrame {
         textField2.setBorder(null);
         //textField2.setFont(mg);
         this.add(textField2);
+
     }
 
     //show this GUI
