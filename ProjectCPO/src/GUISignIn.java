@@ -16,7 +16,13 @@ public class GUISignIn extends JFrame {
     Font mg = new Font("Malgun Gothic",1,40);
 
     //create components
-    JLabel label1 = new JLabel("Sign in");
+    JLabel label1;
+    JLabel label2;
+    JLabel label3;
+    JLabel label4;
+    JTextField textField1;
+    JTextField textField2;
+
     public GUISignIn() {
         //setup this GUI
         this.setBounds(500,400,600,400);
@@ -24,11 +30,50 @@ public class GUISignIn extends JFrame {
         this.getContentPane().setBackground(bgColor);
 
         //setup label1
+        label1 = new JLabel("Sign in");
         label1.setBounds(10,5,100,30);
         label1.setForeground(white);
         label1.setFont(impactTitle);
         this.add(label1);
 
+        //setup label2
+        label2 = new JLabel("Welcome");
+        label2.setBounds(225,50,200,30);
+        label2.setForeground(white);
+        label2.setFont(impactTitle);
+        this.add(label2);
+
+        //setup label3
+        label3 = new JLabel("Username");
+        label3.setBounds(50,150,200,30);
+        label3.setForeground(white);
+        label3.setFont(impactTitle);
+        this.add(label3);
+
+        //setup label4
+        label4 = new JLabel("Password");
+        label4.setBounds(50,225,200,30);
+        label4.setForeground(white);
+        label4.setFont(impactTitle);
+        this.add(label4);
+
+        //setup textField1
+        textField1 = new JTextField(" Username");
+        textField1.setBounds(200,150,200,30);
+        textField1.setForeground(white);
+        textField1.setBackground(grey);
+        textField1.setBorder(null);
+        //textField1.setFont(mg);
+        this.add(textField1);
+
+        //setup textField2
+        textField2 = new JTextField(" Password");
+        textField2.setBounds(200,225,200,30);
+        textField2.setForeground(white);
+        textField2.setBackground(grey);
+        textField2.setBorder(null);
+        //textField2.setFont(mg);
+        this.add(textField2);
     }
 
     //show this GUI
