@@ -27,9 +27,8 @@ public class GUISetting extends JFrame{
     JTextField textFieldStart;
     JTextField textFieldEnd;
     JTextField textFieldStep;
-
-
-
+    JTextField textFieldTemp;
+    JTextField textFieldHumi;
 
     public GUISetting() {
         //setup this GUI
@@ -107,6 +106,30 @@ public class GUISetting extends JFrame{
         labelTemp.setFont(impactTitle);
         this.add(labelTemp);
 
+        //setup labelHumi
+        labelHumi = new JLabel("Humidity");
+        labelHumi.setBounds(50,345,200,30);
+        labelHumi.setForeground(white);
+        labelHumi.setFont(impactTitle);
+        this.add(labelHumi);
+
+        //setup textFieldTemp
+        textFieldTemp = new JTextField(" Temperature");
+        textFieldTemp.setBounds(200,295,200,30);
+        textFieldTemp.setForeground(white);
+        textFieldTemp.setBackground(grey);
+        textFieldTemp.setBorder(null);
+        //textField1.setFont(mg);
+        this.add(textFieldTemp);
+
+        //setup textFieldHumi
+        textFieldHumi = new JTextField(" Humidity");
+        textFieldHumi.setBounds(200,345,200,30);
+        textFieldHumi.setForeground(white);
+        textFieldHumi.setBackground(grey);
+        textFieldHumi.setBorder(null);
+        //textField1.setFont(mg);
+        this.add(textFieldHumi);
     }
 
     //show this GUI
