@@ -141,4 +141,25 @@ public class GUISetting extends JFrame{
     public void hideGUI() {
         this.setVisible(false);
     }
+
+    //Getter
+    public String getTextFieldStart() {
+        return textFieldStart.getText();
+    }
+
+    public String getTextFieldEnd() {
+        return this.textFieldEnd.getText();
+    }
+
+    public String getTextFieldStep() {
+        return textFieldStep.getText();
+    }
+
+    public String getTextFieldTemp() {
+        return textFieldTemp.getText();
+    }
+
+    public String getTextFieldHumi() {
+        return textFieldHumi.getText();
+    }
 }

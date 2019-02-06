@@ -9,6 +9,10 @@ public class main {
         */
         //GUISignIn guiSignIn = new GUISignIn();
         //guiSignIn.showGUI();
+
+        ClientHttp http = new ClientHttp();
+        http.se_connecter("172.030.200.003");
+
         GUISetting guiSetting = new GUISetting();
         guiSetting.showGUI();
 
