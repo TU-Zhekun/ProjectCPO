@@ -15,26 +15,29 @@ public class GUIGlobalInfo extends JFrame {
     Color grey =new Color(196,196,196);
 
     //set GUI Font reference
-    Font impactTitle = new Font("Impact",0,26);
-    Font impactText = new Font("Impact",0,40);
+    Font impactTitle = new Font("Impact",0,20);
+    Font impactTextTime = new Font("Impact",0,80);
+    Font impactTextDate = new Font("Malgun Gothic",0,20);
+    Font impactText = new Font("Impact",0,47);
     Font mg = new Font("Malgun Gothic",1,40);
 
-    String infoModule, infoTime, infoTemp, infoHumi;
+    String infoModule, infoTime, infoTemp, infoHumi,infoDate;
 
     JLabel labelModule = new JLabel("Information du Capteur SAI60");
     JLabel labelInfoModule = new JLabel(infoModule);
     JLabel labelTime = new JLabel("Time");
     JLabel labelInfoTime = new JLabel(infoTime);
+    JLabel labelInfoDate = new JLabel(infoDate);
     JLabel labelTemp = new JLabel("Temperature");
     JLabel labelInfoTemp = new JLabel(infoTemp);
     JLabel labelHumi = new JLabel("Humidity");
     JLabel labelInfoHumi = new JLabel(infoHumi);
 
 
-    //constructor of this GUI (infoModule, infoTime, infoTemperature, infoHumidity)
-    public GUIGlobalInfo(String infoModule, String infoTime, String infoTemp, String infoHumi) {
+    //constructor of this GUI (infoModule, infoTime, infoTemperature, infoHumidity, inforDate)
+    public GUIGlobalInfo(String infoModule, String infoTime, String infoTemp, String infoHumi, String infoDate) {
         //set JFrame
-        this.setBounds(400, 300, 600, 400);
+        this.setBounds(400, 300, 660, 350);
         this.getContentPane().setBackground(bgColor);
         this.setLayout(null);
         this.setResizable(false);
@@ -42,52 +45,60 @@ public class GUIGlobalInfo extends JFrame {
         //frame.setVisible(true);
 
         //setup JLabelModule
-        labelModule.setBounds(50, 50, 300, 30);
-        labelModule.setForeground(white);
-        labelModule.setFont(impactTitle);
-        this.add(labelModule);
+//        labelModule.setBounds(50, 50, 300, 30);
+//        labelModule.setForeground(white);
+//        labelModule.setFont(impactTitle);
+//        this.add(labelModule);
 
         //setup JLabelInfoModule
-        labelInfoModule.setText(infoModule);
-        labelInfoModule.setBounds(5, 5, 300, 40);
-        labelInfoModule.setForeground(white);
-        labelInfoModule.setFont(mg);
-        this.add(labelInfoModule);
+//        labelInfoModule.setText(infoModule);
+//        labelInfoModule.setBounds(5, 5, 300, 40);
+//        labelInfoModule.setForeground(white);
+//        labelInfoModule.setFont(mg);
+//        this.add(labelInfoModule);
 
         //setup JLabelTime
-        labelTime.setBounds(50, 100, 40, 30);
+        labelTime.setBounds(170, 40, 80, 40);
         labelTime.setForeground(white);
+        labelTime.setFont(impactTitle);
         this.add(labelTime);
 
         //setup JLabelInfoTime
         labelInfoTime.setText(infoTime);
-        labelInfoTime.setBounds(200, 100, 200, 40);
+        labelInfoTime.setBounds(220, 35, 230, 92);
         labelInfoTime.setForeground(white);
-        labelInfoTime.setFont(impactText);
+        labelInfoTime.setFont(impactTextTime);
         this.add(labelInfoTime);
 
+        //setup JLabelInfoDate
+        labelInfoDate.setText(infoDate);
+        labelInfoDate.setBounds(255, 105, 190, 50);
+        labelInfoDate.setForeground(white);
+        labelInfoDate.setFont(impactTextDate);
+        this.add(labelInfoDate);
+
         //setup JLabelTemp
-        labelTemp.setBounds(100, 150, 200, 40);
+        labelTemp.setBounds(110, 150, 200, 30);
         labelTemp.setForeground(white);
         labelTemp.setFont(impactTitle);
         this.add(labelTemp);
 
         //setup JLabelInfoTemp
         labelInfoTemp.setText(infoTemp);
-        labelInfoTemp.setBounds(140, 200, 200, 40);
+        labelInfoTemp.setBounds(117, 180, 200, 50);
         labelInfoTemp.setForeground(white);
         labelInfoTemp.setFont(impactText);
         this.add(labelInfoTemp);
 
         //setup JLabelHumi
-        labelHumi.setBounds(300, 150, 200, 40);
+        labelHumi.setBounds(400, 150, 200, 30);
         labelHumi.setForeground(white);
         labelHumi.setFont(impactTitle);
         this.add(labelHumi);
 
         //setup JLabelInfoHumi
         labelInfoHumi.setText(infoHumi);
-        labelInfoHumi.setBounds(315, 200, 200, 40);
+        labelInfoHumi.setBounds(400, 180, 200, 50);
         labelInfoHumi.setForeground(white);
         labelInfoHumi.setFont(impactText);
         this.add(labelInfoHumi);

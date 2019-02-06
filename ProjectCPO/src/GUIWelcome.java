@@ -21,7 +21,7 @@ public class GUIWelcome extends JFrame{
 
     public GUIWelcome() {
 
-        this.setBounds(300, 200, 600, 400);
+        this.setBounds(300, 200, 385, 425);
         this.getContentPane().setBackground(bgColor);
         this.setLayout(null);
 
@@ -33,7 +33,7 @@ public class GUIWelcome extends JFrame{
         this.add(labelWelcomeText1);
 
         //setup buttonSetting
-        buttonSetting.setBounds(10,250,400,40);
+        buttonSetting.setBounds(10,250,200,40);
         this.add(buttonSetting);
     }
 

@@ -12,6 +12,7 @@ public class GUISetting extends JFrame{
 
     //set GUI Font reference
     Font impactTitle = new Font("Impact",0,26);
+    Font impactTitle2 = new Font("Impact",0,20);
     Font impactText = new Font("Impact",0,40);
     Font mg = new Font("Malgun Gothic",1,40);
 
@@ -32,37 +33,40 @@ public class GUISetting extends JFrame{
 
     public GUISetting() {
         //setup this GUI
-        this.setBounds(500,200,600,500);
+        this.setBounds(500,400,385,425);
         this.setLayout(null);
         this.getContentPane().setBackground(bgColor);
         this.setResizable(false);
 
         //setup labelmain
         labelmain = new JLabel("Setting");
-        labelmain.setBounds(10,5,100,30);
+        labelmain.setBounds(20,25,100,30);
         labelmain.setForeground(white);
         labelmain.setFont(impactTitle);
         this.add(labelmain);
 
         //setup label1
         label1 = new JLabel("Start Time");
-        label1.setBounds(50,75,200,30);
+        label1.setBounds(5,75,110,30);
         label1.setForeground(white);
-        label1.setFont(impactTitle);
+        label1.setFont(impactTitle2);
+        label1.setHorizontalAlignment(SwingConstants.RIGHT);
         this.add(label1);
 
         //setup label2
         label2 = new JLabel("End Time");
-        label2.setBounds(50,125,100,30);
+        label2.setBounds(5,125,110,30);
         label2.setForeground(white);
-        label2.setFont(impactTitle);
+        label2.setFont(impactTitle2);
+        label2.setHorizontalAlignment(SwingConstants.RIGHT);
         this.add(label2);
 
         //setup label3
         label3 = new JLabel("Step");
-        label3.setBounds(50,175,100,30);
+        label3.setBounds(5,175,110,30);
         label3.setForeground(white);
-        label3.setFont(impactTitle);
+        label3.setFont(impactTitle2);
+        label3.setHorizontalAlignment(SwingConstants.RIGHT);
         this.add(label3);
 
         //setup textFieldStart
@@ -94,28 +98,30 @@ public class GUISetting extends JFrame{
 
         //setup labelAlarm
         labelAlarm = new JLabel("Alarm");
-        labelAlarm.setBounds(10,225,100,30);
+        labelAlarm.setBounds(20,210,100,30);
         labelAlarm.setForeground(white);
         labelAlarm.setFont(impactTitle);
         this.add(labelAlarm);
 
         //setup labelTemp
         labelTemp = new JLabel("Temperature");
-        labelTemp.setBounds(50,295,200,30);
+        labelTemp.setBounds(5,260,110,30);
         labelTemp.setForeground(white);
-        labelTemp.setFont(impactTitle);
+        labelTemp.setFont(impactTitle2);
+        labelTemp.setHorizontalAlignment(SwingConstants.RIGHT);
         this.add(labelTemp);
 
         //setup labelHumi
         labelHumi = new JLabel("Humidity");
-        labelHumi.setBounds(50,345,200,30);
+        labelHumi.setBounds(5,310,110,30);
         labelHumi.setForeground(white);
-        labelHumi.setFont(impactTitle);
+        labelHumi.setFont(impactTitle2);
+        labelHumi.setHorizontalAlignment(SwingConstants.RIGHT);
         this.add(labelHumi);
 
         //setup textFieldTemp
         textFieldTemp = new JTextField(" Temperature");
-        textFieldTemp.setBounds(200,295,200,30);
+        textFieldTemp.setBounds(200,345,200,30);
         textFieldTemp.setForeground(white);
         textFieldTemp.setBackground(grey);
         textFieldTemp.setBorder(null);
