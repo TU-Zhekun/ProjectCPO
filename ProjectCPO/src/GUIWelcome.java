@@ -23,6 +23,7 @@ public class GUIWelcome extends JFrame{
 
         this.setBounds(300, 200, 385, 425);
         this.getContentPane().setBackground(bgColor);
+        this.setResizable(false);
         this.setLayout(null);
 
 
