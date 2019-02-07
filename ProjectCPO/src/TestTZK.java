@@ -1,6 +1,10 @@
-import Communication.ClientTcp;
+import Communication.ConvertisseurOctet;
 
-public class main {
+/**
+ * TestTZK class
+ *
+ */
+public class TestTZK {
     public static void main(String[] args) {
         Sensor sensor1 = new Sensor();
         GUIWelcome guiWelcome = new GUIWelcome();

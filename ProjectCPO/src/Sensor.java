@@ -22,9 +22,9 @@ public class Sensor {
      * 方法 获取温度  待处理！！！
      * ---int must be converted to unsigned float
      */
-    public int getTemp() {
+    public double getTemp() {
         byte[] tab = {0, 1, 0, 0, 0, 6, 8, 3, 0, 100, 0, 1};
-        return getInfo(tab);
+        return (double)(getInfo(tab))/10;
     }
 
     /**
@@ -33,7 +33,7 @@ public class Sensor {
      */
     public double getHumi() {
         byte[] tab = {0, 1, 0, 0, 0, 6, 8, 3, 0, 101, 0, 1};
-        return getInfo(tab);
+        return (double)(getInfo(tab))/10;
     }
 
     int getInfo(byte[] tab) {
