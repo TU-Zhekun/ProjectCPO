@@ -27,6 +27,9 @@ public class TestTZK {
         System.out.println("############################");
         System.out.println(sensor1.getHumi());
 
+        Thread threadRefresh = new ThreadRefresh();
+
+
         //刷新 GUIGlobalInfo 的 温度 & 湿度 信息
         while (true) {
             guiGlobalInfo.setTextLabelInfoTemp(String.valueOf(sensor1.getTemp()) + "\u00B0C");
