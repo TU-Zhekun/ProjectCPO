@@ -119,10 +119,16 @@ public class GUIGlobalInfo extends JFrame {
         labelInfoModule.setText(text);
     }
 
+    //change the text of labelInfoDate
+    public void setTextLabelInfoDate(String text) {
+        labelInfoDate.setText(text);
+    }
+
     //change the text of labelInfoTime
     public void setTextLabelInfoTime(String text) {
         labelInfoTime.setText(text);
     }
+
 
     //change the text of labelInfoTemp
     public void setTextLabelInfoTemp(String text) {
