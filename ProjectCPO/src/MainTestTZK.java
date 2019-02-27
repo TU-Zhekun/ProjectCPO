@@ -1,10 +1,10 @@
 import Communication.ConvertisseurOctet;
 
 /**
- * TestTZK class
+ * MainTestTZK class
  *
  */
-public class TestTZK {
+public class MainTestTZK {
     public static void main(String[] args) {
         Sensor sensor1 = new Sensor();
         GUIWelcome guiWelcome = new GUIWelcome();
@@ -16,7 +16,6 @@ public class TestTZK {
         GUIGlobalInfo guiGlobalInfo = new GUIGlobalInfo("null_1",
                 "00:00","00.0\u00B0C",
                 "00.0%","14 JUL 2089");
-//        guiGlobalInfo.setTextLabelInfoModule("nullMod");
         guiGlobalInfo.showGUI();
 
 //        GUISignIn guiSignIn = new GUISignIn();
@@ -27,19 +26,20 @@ public class TestTZK {
         System.out.println("############################");
         System.out.println(sensor1.getHumi());
 
-        Thread threadRefresh = new ThreadRefresh();
+        Thread threadRefresh = new ThreadRefresh(guiGlobalInfo,sensor1);
+        threadRefresh.start();
 
 
-        //刷新 GUIGlobalInfo 的 温度 & 湿度 信息
-        while (true) {
-            guiGlobalInfo.setTextLabelInfoTemp(String.valueOf(sensor1.getTemp()) + "\u00B0C");
-            guiGlobalInfo.setTextLabelInfoHumi(String.valueOf(sensor1.getHumi()) + "%");
-            try {
-                Thread.sleep(1000);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
+//        //刷新 GUIGlobalInfo 的 温度 & 湿度 信息
+//        while (true) {
+//            guiGlobalInfo.setTextLabelInfoTemp(String.valueOf(sensor1.getTemp()) + "\u00B0C");
+//            guiGlobalInfo.setTextLabelInfoHumi(String.valueOf(sensor1.getHumi()) + "%");
+//            try {
+//                Thread.sleep(1000);
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
+//        }
 //        GUISetting guiSetting = new GUISetting();
 //        guiSetting.showGUI();
 
