@@ -1,4 +1,5 @@
-import Communication.ClientTcp;
+import com.epf.Gui.GUIGlobalInfo;
+import com.epf.Gui.GUIWelcome;
 
 public class main {
     public static void main(String[] args) {
@@ -10,7 +11,7 @@ public class main {
                 sensor1.getHumi() + "%","14 JUL 2089");
 //        guiGlobalInfo.setTextLabelInfoModule("nullMod");
         guiGlobalInfo.showGUI();
-//        GUISignIn guiSignIn = new GUISignIn();
+//        com.epf.Gui.GUISignIn guiSignIn = new com.epf.Gui.GUISignIn();
 //        guiSignIn.showGUI();
 
 
@@ -19,7 +20,7 @@ public class main {
         System.out.println(sensor1.getHumi());
 
 
-//        GUISetting guiSetting = new GUISetting();
+//        com.epf.Gui.GUISetting guiSetting = new com.epf.Gui.GUISetting();
 //        guiSetting.showGUI();
 
 

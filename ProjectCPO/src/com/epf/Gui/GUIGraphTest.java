@@ -1,3 +1,5 @@
+package com.epf.Gui;
+
 import java.awt.Color;
 import java.awt.Font;
 
@@ -31,7 +33,8 @@ public class GUIGraphTest {
         mChartTheme.setAxisLabelPaint(white);
         mChartTheme.setItemLabelPaint(white);
         mChartTheme.setTickLabelPaint(white);
-        mChartTheme.setTitlePaint(Color.green);//图表标题颜色
+        mChartTheme.setTitlePaint(white);//图表标题颜色
+        mChartTheme.setLegendBackgroundPaint(white);//底部 图例区域背景色
         mChartTheme.setLargeFont(new Font("黑体", Font.BOLD, 20));
         mChartTheme.setExtraLargeFont(new Font("宋体", Font.PLAIN, 15));
         mChartTheme.setRegularFont(new Font("宋体", Font.PLAIN, 15));
@@ -39,19 +42,20 @@ public class GUIGraphTest {
         ChartFactory.setChartTheme(mChartTheme);
         CategoryDataset mDataset = GetDataset();
         JFreeChart mChart = ChartFactory.createLineChart(
-                "折线图",
+                "Graph",
                 "Time",
-                "Temp",
+                "Temperature",
                 mDataset,
                 PlotOrientation.VERTICAL,
                 true,
                 true,
                 false);
         CategoryPlot mPlot = (CategoryPlot) mChart.getPlot();
-        mPlot.setBackgroundPaint(Color.LIGHT_GRAY);
-        mPlot.setRangeGridlinePaint(Color.BLUE);//背景底部横虚线
-        mPlot.setOutlinePaint(Color.RED);//边界线
-        ChartFrame mChartFrame = new ChartFrame("折线图", mChart);
+        //图表设置mPlot
+        mPlot.setBackgroundPaint(white);
+        mPlot.setRangeGridlinePaint(bgColor);//背景底部横虚线
+        mPlot.setOutlinePaint(bgColor);//边界线
+        ChartFrame mChartFrame = new ChartFrame("Graph", mChart);
         mChartFrame.pack();
         mChartFrame.setVisible(true);
     }
