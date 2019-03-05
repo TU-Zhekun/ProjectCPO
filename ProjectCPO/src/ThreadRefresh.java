@@ -1,4 +1,4 @@
-import com.epf.Gui.GUIGlobalInfo;
+import team.CPO.Project1.Gui.GUIGlobalInfo;
 
 import java.util.*;
 import java.text.*;
@@ -14,7 +14,7 @@ public class ThreadRefresh extends Thread{
 
     @Override
     public void run() {
-        //刷新 com.epf.Gui.GUIGlobalInfo 的 温度 & 湿度 信息
+        //刷新 GUIGlobalInfo 的 温度 & 湿度 信息
         while (true) {
             guiGlobalInfo.setTextLabelInfoTemp(sensor1.getTemp() + "\u00B0C");
             guiGlobalInfo.setTextLabelInfoHumi(sensor1.getHumi() + "%");

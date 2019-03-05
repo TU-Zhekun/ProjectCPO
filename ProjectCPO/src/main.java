@@ -1,5 +1,5 @@
-import com.epf.Gui.GUIGlobalInfo;
-import com.epf.Gui.GUIWelcome;
+import team.CPO.Project1.Gui.GUIGlobalInfo;
+import team.CPO.Project1.Gui.GUIWelcome;
 
 public class main {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class main {
                 sensor1.getHumi() + "%","14 JUL 2089");
 //        guiGlobalInfo.setTextLabelInfoModule("nullMod");
         guiGlobalInfo.showGUI();
-//        com.epf.Gui.GUISignIn guiSignIn = new com.epf.Gui.GUISignIn();
+//        GUISignIn guiSignIn = new GUISignIn();
 //        guiSignIn.showGUI();
 
 
@@ -20,7 +20,7 @@ public class main {
         System.out.println(sensor1.getHumi());
 
 
-//        com.epf.Gui.GUISetting guiSetting = new com.epf.Gui.GUISetting();
+//        GUISetting guiSetting = new GUISetting();
 //        guiSetting.showGUI();
 
 

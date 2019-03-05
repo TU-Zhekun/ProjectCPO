@@ -1,5 +1,5 @@
-import com.epf.Gui.GUIGlobalInfo;
-import com.epf.Gui.GUIWelcome;
+import team.CPO.Project1.Gui.GUIGlobalInfo;
+import team.CPO.Project1.Gui.GUIWelcome;
 
 /**
  * MainTestTZK class
@@ -10,7 +10,7 @@ public class MainTestTZK {
         Sensor sensor1 = new Sensor();
         GUIWelcome guiWelcome = new GUIWelcome();
         guiWelcome.showGUI();
-//        com.epf.Gui.GUIGlobalInfo guiGlobalInfo = new com.epf.Gui.GUIGlobalInfo("null_1",
+//        GUIGlobalInfo guiGlobalInfo = new GUIGlobalInfo("null_1",
 //                "00:00",sensor1.getTemp() + "\u00B0C",
 //                sensor1.getHumi() + "%","14 JUL 2089");
 
@@ -19,7 +19,7 @@ public class MainTestTZK {
                 "00.0%","14 JUL 2089");
         guiGlobalInfo.showGUI();
 
-//        com.epf.Gui.GUISignIn guiSignIn = new com.epf.Gui.GUISignIn();
+//        GUISignIn guiSignIn = new GUISignIn();
 //        guiSignIn.showGUI();
 
         System.out.println(sensor1.getTemp());
@@ -31,7 +31,7 @@ public class MainTestTZK {
         threadRefresh.start();
 
 
-//        com.epf.Gui.GUISetting guiSetting = new com.epf.Gui.GUISetting();
+//        GUISetting guiSetting = new GUISetting();
 //        guiSetting.showGUI();
 
 

@@ -1,6 +1,4 @@
-/**
- * graph 测试类 GUI
- */
+package team.CPO.Project1.Gui;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -14,9 +12,10 @@ import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.category.CategoryDataset;
 import org.jfree.data.category.DefaultCategoryDataset;
 
-public class GUIGraphTextPerso {
-    public GUIGraphTextPerso() {
-        StandardChartTheme guiChartTheme = new StandardChartTheme("test");
+public class GUIGraphTest {
+    public GUIGraphTest() {
+
+        StandardChartTheme mChartTheme = new StandardChartTheme("CN");
 
         //set GUI color reference
         Color bgColor = new Color(20, 29, 39);
@@ -30,38 +29,37 @@ public class GUIGraphTextPerso {
         Font impactText = new Font("Impact", 0, 47);
         Font mg = new Font("Malgun Gothic", 1, 40);
 
-        guiChartTheme.setChartBackgroundPaint(bgColor);
-        guiChartTheme.setAxisLabelPaint(white);
-        guiChartTheme.setItemLabelPaint(white);
-        guiChartTheme.setTickLabelPaint(white);
-        // mChartTheme.setTitlePaint(Color.green);//图表标题颜色
-        // mChartTheme.setLargeFont(new Font("黑体", Font.BOLD, 20));
-        // mChartTheme.setExtraLargeFont(new Font("宋体", Font.PLAIN, 15));
-        // mChartTheme.setRegularFont(new Font("宋体", Font.PLAIN, 15));
+        mChartTheme.setChartBackgroundPaint(bgColor);
+        mChartTheme.setAxisLabelPaint(white);
+        mChartTheme.setItemLabelPaint(white);
+        mChartTheme.setTickLabelPaint(white);
+        mChartTheme.setTitlePaint(white);//图表标题颜色
+        mChartTheme.setLegendBackgroundPaint(white);//底部 图例区域背景色
+        mChartTheme.setLargeFont(new Font("黑体", Font.BOLD, 20));
+        mChartTheme.setExtraLargeFont(new Font("宋体", Font.PLAIN, 15));
+        mChartTheme.setRegularFont(new Font("宋体", Font.PLAIN, 15));
 
-
-        // ChartFactory.setChartTheme(mChartTheme);
-        // CategoryDataset mDataset = GetDataset();
+        ChartFactory.setChartTheme(mChartTheme);
+        CategoryDataset mDataset = GetDataset();
         JFreeChart mChart = ChartFactory.createLineChart(
-        //         "折线图",
-        //         "Time",
-        //         "Temp",
-        //         mDataset,
-        //         PlotOrientation.VERTICAL,
-        //         true,
-        //         true,
-        //         false);
-        // CategoryPlot mPlot = (CategoryPlot) mChart.getPlot();
-        // mPlot.setBackgroundPaint(Color.LIGHT_GRAY);
-        // mPlot.setRangeGridlinePaint(Color.BLUE);//背景底部横虚线
-        // mPlot.setOutlinePaint(Color.RED);//边界线
-        ChartFrame guiChartFrame = new ChartFrame("test_title", mChart);
-        // mChartFrame.pack();
-        guiChartFrame.setVisible(true);
+                "Graph",
+                "Time",
+                "Temperature",
+                mDataset,
+                PlotOrientation.VERTICAL,
+                true,
+                true,
+                false);
+        CategoryPlot mPlot = (CategoryPlot) mChart.getPlot();
+        //图表设置mPlot
+        mPlot.setBackgroundPaint(white);
+        mPlot.setRangeGridlinePaint(bgColor);//背景底部横虚线
+        mPlot.setOutlinePaint(bgColor);//边界线
+        ChartFrame mChartFrame = new ChartFrame("Graph", mChart);
+        mChartFrame.pack();
+        mChartFrame.setVisible(true);
     }
 
-
-    //Dataset test value
     public static CategoryDataset GetDataset() {
         DefaultCategoryDataset mDataset = new DefaultCategoryDataset();
         mDataset.addValue(1, "First", "2013");
@@ -80,8 +78,7 @@ public class GUIGraphTextPerso {
     }
 
     public static void main(String[] args) {
-
-        GUIGraphTextPerso test1 = new GUIGraphTextPerso();
+        GUIGraphTest test1 = new GUIGraphTest();
     }
 
 }
