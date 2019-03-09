@@ -1,13 +1,14 @@
 import team.CPO.Project1.Gui.GUIGlobalInfo;
+import team.CPO.Project1.Gui.GUIGraphTest;
 
 import java.util.*;
 import java.text.*;
 
-public class ThreadRefresh extends Thread{
+public class ThreadRefreshGlobalInfo extends Thread{
     GUIGlobalInfo guiGlobalInfo;
     Sensor sensor1;
 
-    public ThreadRefresh(GUIGlobalInfo guiGlobalInfo, Sensor sensor1) {
+    public ThreadRefreshGlobalInfo(GUIGlobalInfo guiGlobalInfo, Sensor sensor1) {
         this.guiGlobalInfo = guiGlobalInfo;
         this.sensor1 = sensor1;
     }
@@ -28,6 +29,8 @@ public class ThreadRefresh extends Thread{
             String strMonth=String.format(Locale.US,"%tb",dNow);
             SimpleDateFormat ftYear = new SimpleDateFormat ("yyyy");
             guiGlobalInfo.setTextLabelInfoDate(ftDay.format(dNow)+" "+strMonth+" "+ftYear.format(dNow));
+
+
 
             System.out.println("threadRefresh running");
             try {

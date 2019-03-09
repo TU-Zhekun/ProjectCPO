@@ -1,4 +1,5 @@
 import team.CPO.Project1.Gui.GUIGlobalInfo;
+import team.CPO.Project1.Gui.GUIGraphTest;
 import team.CPO.Project1.Gui.GUIWelcome;
 
 /**
@@ -27,9 +28,13 @@ public class MainTestTZK {
         System.out.println("############################");
         System.out.println(sensor1.getHumi());
 
-        Thread threadRefresh = new ThreadRefresh(guiGlobalInfo,sensor1);
-        threadRefresh.start();
+        GUIGraphTest test1 = new GUIGraphTest();
 
+        Thread threadRefreshGlobalInfo = new ThreadRefreshGlobalInfo(guiGlobalInfo,sensor1);
+        threadRefreshGlobalInfo.start();
+
+        Thread threadRefreshGraph = new ThreadRefreshGraph(test1);
+        threadRefreshGraph.start();
 
 //        GUISetting guiSetting = new GUISetting();
 //        guiSetting.showGUI();
