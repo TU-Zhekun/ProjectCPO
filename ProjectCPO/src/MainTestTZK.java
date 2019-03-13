@@ -23,10 +23,16 @@ public class MainTestTZK {
 //        GUISignIn guiSignIn = new GUISignIn();
 //        guiSignIn.showGUI();
 
-        System.out.println(sensor1.getTemp());
+//        try to get data from sensers.
+        try {
+            System.out.println(sensor1.getTemp());
+            System.out.println("############################");
+            System.out.println(sensor1.getHumi());
+        }
+        catch(Exception e){
+            System.out.println("No data from sensors.");
+        }
 
-        System.out.println("############################");
-        System.out.println(sensor1.getHumi());
 
         GUIGraphTest test1 = new GUIGraphTest();
 
