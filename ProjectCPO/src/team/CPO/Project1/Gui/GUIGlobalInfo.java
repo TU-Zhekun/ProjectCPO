@@ -1,7 +1,5 @@
-package com.epf.Gui;
-
+package team.CPO.Project1.Gui;
 import javax.swing.*;
-import javax.swing.border.Border;
 import java.awt.*;
 
 /**

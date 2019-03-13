@@ -1,20 +1,21 @@
-import com.epf.Gui.GUIGlobalInfo;
+import team.CPO.Project1.Gui.GUIGlobalInfo;
+import team.CPO.Project1.Gui.GUIGraphTest;
 
 import java.util.*;
 import java.text.*;
 
-public class ThreadRefresh extends Thread{
+public class ThreadRefreshGlobalInfo extends Thread{
     GUIGlobalInfo guiGlobalInfo;
     Sensor sensor1;
 
-    public ThreadRefresh(GUIGlobalInfo guiGlobalInfo, Sensor sensor1) {
+    public ThreadRefreshGlobalInfo(GUIGlobalInfo guiGlobalInfo, Sensor sensor1) {
         this.guiGlobalInfo = guiGlobalInfo;
         this.sensor1 = sensor1;
     }
 
     @Override
     public void run() {
-        //刷新 com.epf.Gui.GUIGlobalInfo 的 温度 & 湿度 信息
+        //刷新 GUIGlobalInfo 的 温度 & 湿度 信息
         while (true) {
             guiGlobalInfo.setTextLabelInfoTemp(sensor1.getTemp() + "\u00B0C");
             guiGlobalInfo.setTextLabelInfoHumi(sensor1.getHumi() + "%");
@@ -28,6 +29,8 @@ public class ThreadRefresh extends Thread{
             String strMonth=String.format(Locale.US,"%tb",dNow);
             SimpleDateFormat ftYear = new SimpleDateFormat ("yyyy");
             guiGlobalInfo.setTextLabelInfoDate(ftDay.format(dNow)+" "+strMonth+" "+ftYear.format(dNow));
+
+
 
             System.out.println("threadRefresh running");
             try {

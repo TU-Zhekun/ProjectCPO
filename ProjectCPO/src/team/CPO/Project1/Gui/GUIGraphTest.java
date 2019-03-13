@@ -1,4 +1,4 @@
-package com.epf.Gui;
+package team.CPO.Project1.Gui;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -13,8 +13,8 @@ import org.jfree.data.category.CategoryDataset;
 import org.jfree.data.category.DefaultCategoryDataset;
 
 public class GUIGraphTest {
+    public DefaultCategoryDataset mDataset = new DefaultCategoryDataset();
     public GUIGraphTest() {
-
         StandardChartTheme mChartTheme = new StandardChartTheme("CN");
 
         //set GUI color reference
@@ -60,25 +60,24 @@ public class GUIGraphTest {
         mChartFrame.setVisible(true);
     }
 
-    public static CategoryDataset GetDataset() {
-        DefaultCategoryDataset mDataset = new DefaultCategoryDataset();
-        mDataset.addValue(1, "First", "2013");
-        mDataset.addValue(3, "First", "2014");
-        mDataset.addValue(2, "First", "2015");
-        mDataset.addValue(6, "First", "2016");
-        mDataset.addValue(5, "First", "2017");
-        mDataset.addValue(12, "First", "2018");
-        mDataset.addValue(14, "Second", "2013");
-        mDataset.addValue(13, "Second", "2014");
-        mDataset.addValue(12, "Second", "2015");
-        mDataset.addValue(9, "Second", "2016");
-        mDataset.addValue(5, "Second", "2017");
-        mDataset.addValue(7, "Second", "2018");
+    public CategoryDataset GetDataset() {
+        this.mDataset.addValue(1, "First", "2013");
+        this.mDataset.addValue(3, "First", "2014");
+        this.mDataset.addValue(2, "First", "2015");
+        this.mDataset.addValue(6, "First", "2016");
+        this.mDataset.addValue(5, "First", "2017");
+        this.mDataset.addValue(12, "First", "2018");
+        this.mDataset.addValue(14, "Second", "2013");
+        this.mDataset.addValue(13, "Second", "2014");
+        this.mDataset.addValue(12, "Second", "2015");
+        this.mDataset.addValue(9, "Second", "2016");
+        this.mDataset.addValue(5, "Second", "2017");
+        this.mDataset.addValue(7, "Second", "2018");
         return mDataset;
     }
 
-    public static void main(String[] args) {
-        GUIGraphTest test1 = new GUIGraphTest();
-    }
+//    public static void main(String[] args) {
+//        GUIGraphTest test1 = new GUIGraphTest();
+//    }
 
 }
