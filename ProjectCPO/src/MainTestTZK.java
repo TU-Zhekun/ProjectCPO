@@ -36,10 +36,11 @@ public class MainTestTZK {
 
         GUIGraphTest test1 = new GUIGraphTest();
 
-        Thread threadRefreshGlobalInfo = new ThreadRefreshGlobalInfo(guiGlobalInfo,sensor1);
+        Thread threadRefreshGlobalInfo =
+                new ThreadRefreshGlobalInfo(guiGlobalInfo,sensor1);
         threadRefreshGlobalInfo.start();
 
-        Thread threadRefreshGraph = new ThreadRefreshGraph(test1);
+        Thread threadRefreshGraph = new ThreadRefreshGraph(test1, sensor1);
         threadRefreshGraph.start();
 
 //        GUISetting guiSetting = new GUISetting();

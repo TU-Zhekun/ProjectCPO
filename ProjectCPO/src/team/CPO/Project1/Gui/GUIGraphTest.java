@@ -61,18 +61,18 @@ public class GUIGraphTest {
     }
 
     public CategoryDataset GetDataset() {
-        this.mDataset.addValue(1, "First", "2013");
-        this.mDataset.addValue(3, "First", "2014");
-        this.mDataset.addValue(2, "First", "2015");
-        this.mDataset.addValue(6, "First", "2016");
-        this.mDataset.addValue(5, "First", "2017");
-        this.mDataset.addValue(12, "First", "2018");
-        this.mDataset.addValue(14, "Second", "2013");
-        this.mDataset.addValue(13, "Second", "2014");
-        this.mDataset.addValue(12, "Second", "2015");
-        this.mDataset.addValue(9, "Second", "2016");
-        this.mDataset.addValue(5, "Second", "2017");
-        this.mDataset.addValue(7, "Second", "2018");
+//        this.mDataset.addValue(1, "First", "2013");
+//        this.mDataset.addValue(3, "First", "2014");
+//        this.mDataset.addValue(2, "First", "2015");
+//        this.mDataset.addValue(6, "First", "2016");
+//        this.mDataset.addValue(5, "First", "2017");
+//        this.mDataset.addValue(12, "First", "2018");
+//        this.mDataset.addValue(14, "Second", "2013");
+//        this.mDataset.addValue(13, "Second", "2014");
+//        this.mDataset.addValue(12, "Second", "2015");
+//        this.mDataset.addValue(9, "Second", "2016");
+//        this.mDataset.addValue(5, "Second", "2017");
+//        this.mDataset.addValue(7, "Second", "2018");
         return mDataset;
     }
 

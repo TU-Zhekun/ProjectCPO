@@ -25,6 +25,7 @@ public class ThreadRefreshGlobalInfo extends Thread{
             SimpleDateFormat ft1 = new SimpleDateFormat ("HH:mm");
             guiGlobalInfo.setTextLabelInfoTime(ft1.format(dNow));
 
+            //根据系统时间获得日期信息
             SimpleDateFormat ftDay = new SimpleDateFormat ("dd");
             String strMonth=String.format(Locale.US,"%tb",dNow);
             SimpleDateFormat ftYear = new SimpleDateFormat ("yyyy");
