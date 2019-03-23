@@ -1,4 +1,7 @@
+package team.CPO.Project1.Test;
+
 import team.CPO.Project1.Gui.GUIGraphTest;
+import team.CPO.Project1.App.Sensor;
 
 public class ThreadRefreshGraph extends Thread {
     GUIGraphTest guiGraphTest;

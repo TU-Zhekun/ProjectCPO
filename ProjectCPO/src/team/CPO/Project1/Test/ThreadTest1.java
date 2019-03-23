@@ -1,3 +1,5 @@
+package team.CPO.Project1.Test;
+
 public class ThreadTest1 extends Thread {
     @Override
     public void run() {

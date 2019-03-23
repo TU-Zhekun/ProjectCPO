@@ -1,5 +1,7 @@
+package team.CPO.Project1.Test;
+
 import team.CPO.Project1.Gui.GUIGlobalInfo;
-import team.CPO.Project1.Gui.GUIGraphTest;
+import team.CPO.Project1.App.Sensor;
 
 import java.util.*;
 import java.text.*;

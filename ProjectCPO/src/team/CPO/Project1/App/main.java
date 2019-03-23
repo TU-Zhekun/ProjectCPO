@@ -1,3 +1,5 @@
+package team.CPO.Project1.App;
+
 import team.CPO.Project1.Gui.GUIGlobalInfo;
 import team.CPO.Project1.Gui.GUIWelcome;
 

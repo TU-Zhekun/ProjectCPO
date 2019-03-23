@@ -1,3 +1,5 @@
+package team.CPO.Project1.Test;
+
 import javax.swing.*;
 public class HelloWorldSwing {
     /**{
@@ -9,7 +11,7 @@ public class HelloWorldSwing {
         JFrame.setDefaultLookAndFeelDecorated(true);
 
         //Create and set up the window.
-        JFrame frame = new JFrame("HelloWorldSwing");
+        JFrame frame = new JFrame("team.CPO.Project1.Test.HelloWorldSwing");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         //Add the ubiquitous "Hello World" label.

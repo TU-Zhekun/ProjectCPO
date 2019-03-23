@@ -1,3 +1,5 @@
+package team.CPO.Project1.App;
+
 import Communication.ClientTcp;
 import Communication.ConvertisseurOctet;
 
@@ -5,7 +7,7 @@ import java.io.IOError;
 import java.io.IOException;
 
 /**
- * class Sensor
+ * class team.CPO.Project1.App.Sensor
  * 传感器 类
  * 定义 传感器 方法
  */

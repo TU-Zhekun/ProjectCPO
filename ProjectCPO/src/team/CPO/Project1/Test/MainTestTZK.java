@@ -1,9 +1,12 @@
+package team.CPO.Project1.Test;
+
+import team.CPO.Project1.App.Sensor;
 import team.CPO.Project1.Gui.GUIGlobalInfo;
 import team.CPO.Project1.Gui.GUIGraphTest;
 import team.CPO.Project1.Gui.GUIWelcome;
 
 /**
- * MainTestTZK class
+ * team.CPO.Project1.Test.MainTestTZK class
  *
  */
 public class MainTestTZK {

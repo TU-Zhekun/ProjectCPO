@@ -79,7 +79,7 @@
 //        return mDataset;
 //    }
 //
-//    public static void main(String[] args) {
+//    public static void team.CPO.Project1.App.main(String[] args) {
 //
 //        GUIGraphTextPerso test1 = new GUIGraphTextPerso();
 //    }
