@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f65cdfa5-845a-4a83-9c6f-44028e8abe3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ClientHttp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/ClientHttp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUIGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/GUIGraphTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorldSwing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/HelloWorldSwing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainTestTZK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/MainTestTZK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/App/Sensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreadRefreshGlobalInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreadRefreshGraph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreadRefreshGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreadTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThreadTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/App/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphTextPerso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphTextPerso.java" afterDir="false" />
-    </list>
+    <list default="true" id="f65cdfa5-845a-4a83-9c6f-44028e8abe3b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,23 +126,23 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/GUIGraphTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="76">
-                  <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+                <state relative-caret-position="-304">
+                  <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="152">
-                  <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="57">
+                  <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
@@ -269,6 +253,13 @@
             </path>
             <path>
               <item name="ProjectCPO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectCPO" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Project1" type="462c0819:PsiDirectoryNode" />
+              <item name="Gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectCPO" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -281,14 +272,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553328988710" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553328991585" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/library/jcommon-1.0.23.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -412,15 +403,16 @@
       <workItem from="1552480016142" duration="1450000" />
       <workItem from="1552592350212" duration="192000" />
       <workItem from="1552848616215" duration="5824000" />
-      <workItem from="1553325910714" duration="2612000" />
+      <workItem from="1553325910714" duration="3257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101408000" />
+    <option name="totallyTimeSpent" value="102053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.112600535" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -621,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/GUIGraphTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -640,8 +625,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        <state relative-caret-position="57">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/GUIGraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -723,7 +715,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>jcommon-1.0.23</last-edited>
+          <last-edited>jfreechart-1.0.19</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
