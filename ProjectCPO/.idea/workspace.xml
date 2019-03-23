@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f65cdfa5-845a-4a83-9c6f-44028e8abe3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/team/CPO/Project1/App/FakeSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/TestSave1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/TestSaveTZK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadTestSave.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/App/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/App/Sensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Test/MainTestTZK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/MainTestTZK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Test/Test1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,6 +14,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ProjectCPO$GUIGraphTemp.ic" NAME="GUIGraphTemp Coverage Results" MODIFIED="1551278816179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ProjectCPO" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -38,6 +34,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="746">
               <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,15 +72,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/App/FakeSensor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="95">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
               <folding>
                 <element signature="e#175#176#0" expanded="true" />
                 <element signature="e#223#224#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ClientHttp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -87,10 +104,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadTestSave.java">
+        <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,8 +147,8 @@
       <find>Date</find>
       <find>infoLine</find>
       <find>saveinfoList</find>
-      <find>getinfoListtring</find>
       <find>createinfoList</find>
+      <find>getinfoListtring</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,13 +189,13 @@
         <option value="$PROJECT_DIR$/src/ThreadRefreshGraph.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/HelloWorldSwing.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGraph.java" />
-        <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/App/Sensor.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/TestSave1.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/Test1.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/MainTestTZK.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadTestSave.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/TestSaveTZK.java" />
+        <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/App/FakeSensor.java" />
       </list>
     </option>
@@ -249,7 +270,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553338164568" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553338867787" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -393,18 +414,18 @@
       <workItem from="1552592350212" duration="192000" />
       <workItem from="1552848616215" duration="5824000" />
       <workItem from="1553325910714" duration="4836000" />
-      <workItem from="1553331650435" duration="6508000" />
+      <workItem from="1553331650435" duration="7074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110140000" />
+    <option name="totallyTimeSpent" value="110706000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11394102" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11394102" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -414,7 +435,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.65683645" weight="0.43575418" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6668901" visible="true" weight="0.3337989" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6668901" weight="0.3337989" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966488" weight="0.3980447" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -424,7 +445,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.34316355" side_tool="true" weight="0.18828452" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.47654155" weight="0.3226257" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.47654155" visible="true" weight="0.3226257" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -495,13 +516,6 @@
     <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/GUIWelcome.java" />
     <entry file="file://$PROJECT_DIR$/src/GUIGraphTempTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ClientHttp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUISignIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -620,38 +634,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/persons.data">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="76" selection-start-column="76" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/TestSave1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="746">
-          <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -662,13 +648,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/MainTestTZK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -704,13 +683,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/TestSave1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="746">
+          <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/App/FakeSensor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="95">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
           <folding>
             <element signature="e#175#176#0" expanded="true" />
             <element signature="e#223#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ClientHttp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/MainTestTZK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
