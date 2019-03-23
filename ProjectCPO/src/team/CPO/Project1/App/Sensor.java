@@ -13,9 +13,9 @@ import java.io.IOException;
  */
 
 public class Sensor {
-    int temperature;
-    int humidity;
-    ClientTcp client;
+//    int temperature;
+//    int humidity;
+//    ClientTcp client;
 
     public Sensor() {
     }
