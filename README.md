@@ -1,10 +1,10 @@
-# CPO 
+# CPO Project
 ## Projet de 2ème année
 
 > ###### Les livrables que vous devez rendre après la première séance de projet sont :
-• le cahier des charges
-• un planning prévisionnel (diagramme de Gantt par exemple)
-• une ébauche de l'interface graphique
+>• le cahier des charges
+>• un planning prévisionnel (diagramme de Gantt par exemple)
+>• une ébauche de l'interface graphique
 
 > Un fichier PDF regroupant les 3 documents est souhaité.
 > Il devra être nommé de la manière suivante : nom1_nom2.pdf
