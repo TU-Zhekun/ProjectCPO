@@ -24,8 +24,8 @@ public class ThreadRefreshGraph extends Thread {
                         "Second", Integer.valueOf(2018 + i));
                 System.out.println("ok");
                 if (i > 13) {
-                    guiGraphTest.mDataset.removeValue("First", 2018+i-10);
-                    guiGraphTest.mDataset.removeValue("Second", 2018+i-10);
+                    guiGraphTest.mDataset.removeValue("First", 2018+i-13);
+                    guiGraphTest.mDataset.removeValue("Second", 2018+i-13);
                 }
             } catch (Exception ex) {
                 System.out.println("addValue failed");

@@ -8,7 +8,8 @@ import team.CPO.Project1.Gui.GUIWelcome;
  */
 public class MainTestTZK {
     public static void main(String[] args) {
-        Sensor sensor1 = new Sensor();
+            Sensor sensor1 = new Sensor();
+            System.out.println("fucked");
         GUIWelcome guiWelcome = new GUIWelcome();
         guiWelcome.showGUI();
 //        GUIGlobalInfo guiGlobalInfo = new GUIGlobalInfo("null_1",
