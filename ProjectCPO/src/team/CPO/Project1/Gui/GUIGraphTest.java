@@ -76,8 +76,8 @@ public class GUIGraphTest {
         return mDataset;
     }
 
-    public static void team.CPO.Project1.App.main(String[] args) {
-        team.CPO.Project1.Test.GUIGraphTest test1 = new team.CPO.Project1.Test.GUIGraphTest();
+    public static void main(String[] args) {
+        GUIGraphTest test1 = new GUIGraphTest();
     }
 
 }
