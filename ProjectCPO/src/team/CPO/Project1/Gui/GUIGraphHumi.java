@@ -12,9 +12,9 @@ import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.category.CategoryDataset;
 import org.jfree.data.category.DefaultCategoryDataset;
 
-public class GUIGraphTemp {
+public class GUIGraphHumi {
     public DefaultCategoryDataset mDataset = new DefaultCategoryDataset();
-    public GUIGraphTemp() {
+    public GUIGraphHumi() {
         StandardChartTheme mChartTheme = new StandardChartTheme("CN");
 
         //set GUI color reference
@@ -44,7 +44,7 @@ public class GUIGraphTemp {
         JFreeChart mChart = ChartFactory.createLineChart(
                 "Graph",
                 "Time",
-                "Temperature",
+                " humidity",
                 mDataset,
                 PlotOrientation.VERTICAL,
                 true,
@@ -77,7 +77,7 @@ public class GUIGraphTemp {
     }
 
     public static void main(String[] args) {
-        GUIGraphTemp test1 = new GUIGraphTemp();
+        GUIGraphHumi test1 = new GUIGraphHumi();
     }
 
 }

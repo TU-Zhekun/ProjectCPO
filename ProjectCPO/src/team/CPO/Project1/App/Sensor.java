@@ -33,6 +33,8 @@ public class Sensor {
      * 方法 获取湿度  待处理！！！
      * ---int must be converted to unsigned byte
      */
+
+    public String adrIP="169.254.211.21";
     public double getHumi() {
         byte[] tab = {0, 1, 0, 0, 0, 6, 8, 3, 0, 101, 0, 1};
         return (double)(getInfo(tab))/10;
@@ -43,7 +45,7 @@ public class Sensor {
         byte[] tab2;
         ClientTcp client = new ClientTcp();
         try {
-            client.se_connecter("169.254.211.21", 502);
+            client.se_connecter(adrIP, 502);
         } catch (Exception e) {
             System.out.println("getTemperature Failed");
             System.out.println(e.toString());

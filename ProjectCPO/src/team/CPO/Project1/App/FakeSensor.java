@@ -6,7 +6,12 @@ public class FakeSensor {
      * ---int must be converted to unsigned float
      */
     public double getTemp() {
-        return (double)(225)/10;
+
+        if(i % 5 == 0){
+            i=0;
+        }
+        i++;
+        return (double)(225 + i)/10;
     }
 
     /**

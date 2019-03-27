@@ -1,27 +1,27 @@
 package team.CPO.Project1.Gui;
+
 import javax.swing.*;
 import java.awt.*;
-
 /**
  * GUI of global information
  * time, temperature, humidity
- *
+ * <p>
  * JLabel 位置 字体 待修改
  */
 public class GUIGlobalInfo extends JFrame {
     //set GUI color reference
-    Color bgColor = new Color(20,29,39);
-    Color white = new Color(255,255,255);
-    Color grey =new Color(196,196,196);
+    Color bgColor = new Color(20, 29, 39);
+    Color white = new Color(255, 255, 255);
+    Color grey = new Color(196, 196, 196);
 
     //set GUI Font reference
-    Font impactTitle = new Font("Impact",0,20);
-    Font impactTextTime = new Font("Impact",0,80);
-    Font impactTextDate = new Font("Malgun Gothic",0,20);
-    Font impactText = new Font("Impact",0,47);
-    Font mg = new Font("Malgun Gothic",1,40);
+    Font impactTitle = new Font("Impact", 0, 20);
+    Font impactTextTime = new Font("Impact", 0, 80);
+    Font impactTextDate = new Font("Malgun Gothic", 0, 20);
+    Font impactText = new Font("Impact", 0, 47);
+    Font mg = new Font("Malgun Gothic", 1, 40);
 
-    String infoModule, infoTime, infoTemp, infoHumi,infoDate;
+    String infoModule, infoTime, infoTemp, infoHumi, infoDate;
 
     JLabel labelModule = new JLabel("Information du Capteur SAI60");
     JLabel labelInfoModule = new JLabel(infoModule);
@@ -32,7 +32,8 @@ public class GUIGlobalInfo extends JFrame {
     JLabel labelInfoTemp = new JLabel(infoTemp);
     JLabel labelHumi = new JLabel("Humidity");
     JLabel labelInfoHumi = new JLabel(infoHumi);
-
+    JButton buttonGraph1 = new JButton();
+    JButton buttonGraph2 = new JButton();
 
     //constructor of this GUI (infoModule, infoTime, infoTemperature, infoHumidity, inforDate)
     public GUIGlobalInfo(String infoModule, String infoTime, String infoTemp, String infoHumi, String infoDate) {
@@ -102,8 +103,46 @@ public class GUIGlobalInfo extends JFrame {
         labelInfoHumi.setForeground(white);
         labelInfoHumi.setFont(impactText);
         this.add(labelInfoHumi);
-    }
 
+//
+        //buttonGraph1.setBackground(Color.green);
+
+
+//        Image img = icon.getImage() ;
+//        Image newimg = img.getScaledInstance( 70, 30,  java.awt.Image.SCALE_SMOOTH ) ;
+//        icon = new ImageIcon( newimg );
+
+        
+
+        buttonGraph1.setBounds(165, 250, 120, 30);
+        buttonGraph1.setText("Graph\u2192");
+        buttonGraph1.setFont(new Font("Malgun Gothic", 2, 20));
+        buttonGraph1.setForeground(white);
+        //不绘制边框
+        buttonGraph1.setBorderPainted(false);
+        //不绘制焦点线条
+        buttonGraph1.setFocusPainted(false);
+        //设置边框为空
+        buttonGraph1.setBorder(null);
+        //设置手形图标变换
+        buttonGraph1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+        buttonGraph1.setContentAreaFilled(false);
+        this.add(buttonGraph1);
+
+
+        //buttonGraph2.setBackground(Color.green);
+
+        buttonGraph2.setBounds(455, 250, 120, 30);
+        buttonGraph2.setText("Graph \\u2192");
+        //不绘制边框
+        buttonGraph2.setBorderPainted(false);
+        //设置边框为空
+        buttonGraph2.setBorder(null);
+        //设置手形图标变换
+        buttonGraph2.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+        buttonGraph2.setContentAreaFilled(false);
+        this.add(buttonGraph2);
+    }
     //show this GUI
     public void showGUI() {
         this.setVisible(true);
@@ -138,6 +177,13 @@ public class GUIGlobalInfo extends JFrame {
     //change the text of labelInfoHumi
     public void setTextLabelInfoHumi(String text) {
         labelInfoHumi.setText(text);
+    }
+
+    public static void main(String[] args) {
+        GUIGlobalInfo guiGlobalInfo = new GUIGlobalInfo("null_1",
+                "00:00", "00.0\u00B0C",
+                "00.0%", "14 JUL 2089");
+        guiGlobalInfo.showGUI();
     }
 
 }
