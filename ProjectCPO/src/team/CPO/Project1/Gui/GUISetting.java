@@ -170,4 +170,9 @@ public class GUISetting extends JFrame{
     public String getTextFieldHumi() {
         return textFieldHumi.getText();
     }
+
+//    public static void main(String[] args) {
+//            GUISetting guiSetting = new GUISetting();
+//            guiSetting.showGUI();
+//    }
 }

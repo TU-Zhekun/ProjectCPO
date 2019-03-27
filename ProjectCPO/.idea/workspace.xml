@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f65cdfa5-845a-4a83-9c6f-44028e8abe3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/image/ButtonGraph.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/Sensor.data" beforeDir="false" afterPath="$PROJECT_DIR$/data/Sensor.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/App/Sensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/App/Sensor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIWelcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIWelcome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Test/GUIGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/GUIGraphTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Test/MainTestTZK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/MainTestTZK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Test/TestSaveTZK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/TestSaveTZK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGlobalInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGlobalInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUISetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUISetting.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,6 +17,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ProjectCPO$GUIGraphTemp.ic" NAME="GUIGraphTemp Coverage Results" MODIFIED="1551278816179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ProjectCPO$GUIGlobalInfo.ic" NAME="GUIGlobalInfo Coverage Results" MODIFIED="1553695164439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>team.CPO.Project1.Gui.*</FILTER>
+    </SUITE>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="ProjectCPO" />
@@ -29,20 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/MainTestTZK.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="16" column="29" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGlobalInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
+            <state relative-caret-position="400">
+              <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,10 +39,62 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGlobalInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="110" column="38" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/image/ButtonGraph.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIWelcome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="225">
+              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1181#1182#0" expanded="true" />
+                <element signature="e#1218#1219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/Sensor.data">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="404" column="44" lean-forward="true" selection-start-line="404" selection-start-column="44" selection-end-line="404" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUISignIn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUISetting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="177" column="1" lean-forward="true" selection-start-line="177" selection-start-column="1" selection-end-line="177" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,39 +125,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="134">
               <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/App/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/TestSaveTZK.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1045">
-              <caret line="55" column="11" lean-forward="true" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/App/FakeSensor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -190,9 +197,10 @@
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/MainTestTZK.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/GUIGraphTest.java" />
-        <option value="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGlobalInfo.java" />
-        <option value="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIWelcome.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/App/Sensor.java" />
+        <option value="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIWelcome.java" />
+        <option value="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUISetting.java" />
+        <option value="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGlobalInfo.java" />
       </list>
     </option>
   </component>
@@ -240,36 +248,13 @@
               <item name="ProjectCPO" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectCPO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Project1" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjectCPO" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectCPO" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Project1" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectCPO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectCPO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Project1" type="462c0819:PsiDirectoryNode" />
-              <item name="Gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectCPO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectCPO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Project1" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjectCPO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjectCPO" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Project1" type="462c0819:PsiDirectoryNode" />
-              <item name="Test" type="462c0819:PsiDirectoryNode" />
-              <item name="TestSaveTZK.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="ProjectCPO" type="b2602c69:ProjectViewProjectNode" />
@@ -286,7 +271,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553694114213" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553696706474" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -326,9 +311,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainTestTZK">
+  <component name="RunManager" selected="Application.GUIGlobalInfo">
     <configuration name="GUIGlobalInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="team.CPO.Project1.Gui.GUIGlobalInfo" />
+      <module name="ProjectCPO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="team.CPO.Project1.Gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GUISetting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="team.CPO.Project1.Gui.GUISetting" />
       <module name="ProjectCPO" />
       <extension name="coverage">
         <pattern>
@@ -360,19 +358,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSave1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="team.CPO.Project1.Test.TestSave1" />
-      <module name="ProjectCPO" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="team.CPO.Project1.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestSaveTZK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="team.CPO.Project1.Test.TestSaveTZK" />
       <module name="ProjectCPO" />
@@ -388,18 +373,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainTestTZK" />
-      <item itemvalue="Application.TestSave1" />
       <item itemvalue="Application.TestSaveTZK" />
       <item itemvalue="Application.GUIGlobalInfo" />
       <item itemvalue="Application.GUIWelcome" />
+      <item itemvalue="Application.GUISetting" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GUIGlobalInfo" />
+        <item itemvalue="Application.GUISetting" />
         <item itemvalue="Application.MainTestTZK" />
         <item itemvalue="Application.GUIWelcome" />
-        <item itemvalue="Application.GUIGlobalInfo" />
         <item itemvalue="Application.TestSaveTZK" />
-        <item itemvalue="Application.TestSave1" />
       </list>
     </recent_temporary>
   </component>
@@ -442,12 +427,12 @@
       <workItem from="1552592350212" duration="192000" />
       <workItem from="1552848616215" duration="5824000" />
       <workItem from="1553325910714" duration="4836000" />
-      <workItem from="1553331650435" duration="12234000" />
+      <workItem from="1553331650435" duration="14883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115866000" />
+    <option name="totallyTimeSpent" value="118515000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,7 +447,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.11394102" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.13941018" />
       <window_info id="Structure" order="1" sideWeight="0.50208336" side_tool="true" weight="0.11394102" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -472,8 +457,8 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.65683645" weight="0.43575418" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6668901" weight="0.13826816" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966488" visible="true" weight="0.33519554" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6668901" visible="true" weight="0.13826816" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4966488" weight="0.33519554" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.5924933" weight="0.19413407" />
@@ -493,7 +478,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.3297587" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.3297587" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" weight="0.11394102" />
@@ -553,26 +538,6 @@
     <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/GUIWelcome.java" />
     <entry file="file://$PROJECT_DIR$/src/GUIGraphTempTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUISignIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUISetting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GUISignIn.java" />
     <entry file="jar://$PROJECT_DIR$/library/LibrairieModbus.jar!/Communication/ClientTcp.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -649,9 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/Sensor.data">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://D:/JavaJDK11/lib/src.zip!/java.base/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -703,26 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/MainTestTZK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGlobalInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/App/FakeSensor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -761,10 +703,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/Sensor.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="404" column="44" lean-forward="true" selection-start-line="404" selection-start-column="44" selection-end-line="404" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUISignIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUISetting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="177" column="1" lean-forward="true" selection-start-line="177" selection-start-column="1" selection-end-line="177" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIWelcome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="225">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/image/ButtonGraph.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/MainTestTZK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGlobalInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="110" column="38" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
