@@ -33,7 +33,7 @@ public class GUIGlobalInfo extends JFrame {
     JLabel labelHumi = new JLabel("Humidity");
     JLabel labelInfoHumi = new JLabel(infoHumi);
     JButton buttonGraph1 = new JButton();
-
+    JButton buttonGraph2 = new JButton();
 
     //constructor of this GUI (infoModule, infoTime, infoTemperature, infoHumidity, inforDate)
     public GUIGlobalInfo(String infoModule, String infoTime, String infoTemp, String infoHumi, String infoDate) {
@@ -107,7 +107,7 @@ public class GUIGlobalInfo extends JFrame {
 //
         //buttonGraph1.setBackground(Color.green);
 
-        
+
         buttonGraph1.setBounds(165, 250, 120, 30);
         buttonGraph1.setText("Graph \\u2192");
         //不绘制边框
@@ -118,8 +118,21 @@ public class GUIGlobalInfo extends JFrame {
         buttonGraph1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         buttonGraph1.setContentAreaFilled(false);
         this.add(buttonGraph1);
-    }
 
+
+        //buttonGraph2.setBackground(Color.green);
+
+        buttonGraph2.setBounds(455, 250, 120, 30);
+        buttonGraph2.setText("Graph \\u2192");
+        //不绘制边框
+        buttonGraph2.setBorderPainted(false);
+        //设置边框为空
+        buttonGraph2.setBorder(null);
+        //设置手形图标变换
+        buttonGraph2.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+        buttonGraph2.setContentAreaFilled(false);
+        this.add(buttonGraph2);
+    }
     //show this GUI
     public void showGUI() {
         this.setVisible(true);
