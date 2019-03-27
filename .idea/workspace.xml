@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff1efa4d-38c8-4cf7-ba02-b4616b9688ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ProjectCPO/src/image/gui.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectCPO/src/team/CPO/Project1/Gui/GUIGraphHumi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectCPO/src/team/CPO/Project1/Gui/GUIGraphTemp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectCPO/src/team/CPO/Project1/Gui/GUIGraphTemp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectCPO/src/team/CPO/Project1/Gui/GUIGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectCPO/src/team/CPO/Project1/Gui/GUIGraphTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff1efa4d-38c8-4cf7-ba02-b4616b9688ff" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,15 +10,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProjectCPO/src/team/CPO/Project1/Gui/GUIWelcome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjectCPO/src/team/CPO/Project1/Gui/GUISignIn.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,6 +32,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjectCPO/src/image/ButtonGraph1.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -101,22 +91,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProjectCPO/src/team/CPO/Project1/Gui/GUIGraphTemp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjectCPO/src/team/CPO/Project1/Gui/GUIGlobalInfo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="644">
-              <caret line="166" selection-start-line="162" selection-start-column="30" selection-end-line="166" />
+              <caret line="169" selection-start-line="165" selection-start-column="30" selection-end-line="169" />
             </state>
           </provider>
         </entry>
@@ -153,9 +131,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="498" />
-    <option name="y" value="5" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="677" />
+    <option name="y" value="68" />
     <option name="width" value="2459" />
     <option name="height" value="1759" />
   </component>
@@ -232,7 +210,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553698405131" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553699257528" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ProjectCPO/library/jcommon-1.0.23.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -286,15 +264,16 @@
       <workItem from="1549458938156" duration="1035000" />
       <workItem from="1549459988326" duration="9315000" />
       <workItem from="1553328551391" duration="10240000" />
-      <workItem from="1553692039941" duration="4825000" />
+      <workItem from="1553692039941" duration="5547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27619000" />
+    <option name="totallyTimeSpent" value="28341000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="431" y="55" width="1405" height="1005" extended-state="0" />
+    <frame x="387" y="39" width="1405" height="1005" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20564216" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -528,7 +507,7 @@
     <entry file="file://$PROJECT_DIR$/ProjectCPO/src/team/CPO/Project1/Gui/GUIGlobalInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
-          <caret line="166" selection-start-line="162" selection-start-column="30" selection-end-line="166" />
+          <caret line="169" selection-start-line="165" selection-start-column="30" selection-end-line="169" />
         </state>
       </provider>
     </entry>
@@ -551,6 +530,12 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectCPO/src/image/ButtonGraph1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectCPO/src/image/GUI.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ProjectCPO/src/team/CPO/Project1/Gui/GUISetting.java">
       <provider selected="true" editor-type-id="text-editor">
