@@ -12,7 +12,7 @@ import java.util.List;
 
 public class TestSaveTZK {
 
-//    Sensor sensor = new Sensor();
+    //    Sensor sensor = new Sensor();
     FakeSensor sensor = new FakeSensor();
 
     // 文件名可随意指定，你可以用文本编辑器打开这个文件（注意，记事本无法处理换行）
@@ -55,7 +55,7 @@ public class TestSaveTZK {
         }
 
         // 保存文件内容
-        FileWriter writer = new FileWriter(filename,true);
+        FileWriter writer = new FileWriter(filename, true);
         writer.write(data);
         writer.flush();
         writer.close();
@@ -63,9 +63,15 @@ public class TestSaveTZK {
     }
 
     private String getinfoListString(infoLine infoLine) {
-        return String.valueOf(sensor.getTemp()) + "\t"+Double.toString(sensor.getHumi());
+        return getDate() + "\t" + String.valueOf(sensor.getTemp())
+                + "\t" + Double.toString(sensor.getHumi());
     }
 
+    //getData return String 返回时间信息，用于信息存储
+    public String getDate() {
+        Date date = new Date();
+        return date.toString();
+    }
 
 }
 
@@ -81,6 +87,8 @@ class infoLine {
         this.temp = temp;
         this.humi = humi;
     }
+
+
 }
 
 
