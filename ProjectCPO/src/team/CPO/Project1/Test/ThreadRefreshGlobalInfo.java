@@ -10,9 +10,9 @@ import java.text.*;
 public class ThreadRefreshGlobalInfo extends Thread{
     GUIGlobalInfo guiGlobalInfo;
 //    Sensor sensor1;
-    FakeSensor sensor1;
+    Sensor sensor1;
 
-    public ThreadRefreshGlobalInfo(GUIGlobalInfo guiGlobalInfo, FakeSensor sensor1) {
+    public ThreadRefreshGlobalInfo(GUIGlobalInfo guiGlobalInfo, Sensor sensor1) {
         this.guiGlobalInfo = guiGlobalInfo;
         this.sensor1 = sensor1;
     }
