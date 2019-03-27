@@ -106,13 +106,10 @@ public class GUIGlobalInfo extends JFrame {
 
 //
         //buttonGraph1.setBackground(Color.green);
-        ImageIcon icon = new ImageIcon("src/image/gui.png");
-        Image img = icon.getImage() ;
-        Image newimg = img.getScaledInstance( 70, 30,  java.awt.Image.SCALE_SMOOTH ) ;
-        icon = new ImageIcon( newimg );
+
         
-        buttonGraph1.setBounds(165, 250, icon.getIconWidth(), icon.getIconHeight());
-        buttonGraph1.setIcon(icon);
+        buttonGraph1.setBounds(165, 250, 120, 30);
+        buttonGraph1.setText("Graph \\u2192");
         //不绘制边框
         buttonGraph1.setBorderPainted(false);
         //设置边框为空
