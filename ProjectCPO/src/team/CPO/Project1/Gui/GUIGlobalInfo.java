@@ -28,7 +28,7 @@ public class GUIGlobalInfo extends JFrame {
     JLabel labelTime = new JLabel("Time");
     JLabel labelInfoTime = new JLabel(infoTime);
     JLabel labelInfoDate = new JLabel(infoDate);
-    JLabel labelTemp = new JLabel("Temperature \u2192");
+    JLabel labelTemp = new JLabel("Temperature");
     JLabel labelInfoTemp = new JLabel(infoTemp);
     JLabel labelHumi = new JLabel("Humidity");
     JLabel labelInfoHumi = new JLabel(infoHumi);
@@ -113,9 +113,13 @@ public class GUIGlobalInfo extends JFrame {
 
         
         buttonGraph1.setBounds(165, 250, 120, 30);
-        buttonGraph1.setText("Graph \\u2192");
+        buttonGraph1.setText("Graph\u2192");
+        buttonGraph1.setFont(new Font("Malgun Gothic", 2, 20));
+        buttonGraph1.setForeground(white);
         //不绘制边框
         buttonGraph1.setBorderPainted(false);
+        //不绘制焦点线条
+        buttonGraph1.setFocusPainted(false);
         //设置边框为空
         buttonGraph1.setBorder(null);
         //设置手形图标变换
