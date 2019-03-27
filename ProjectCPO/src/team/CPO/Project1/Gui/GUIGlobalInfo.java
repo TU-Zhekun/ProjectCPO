@@ -28,7 +28,7 @@ public class GUIGlobalInfo extends JFrame {
     JLabel labelTime = new JLabel("Time");
     JLabel labelInfoTime = new JLabel(infoTime);
     JLabel labelInfoDate = new JLabel(infoDate);
-    JLabel labelTemp = new JLabel("Temperature");
+    JLabel labelTemp = new JLabel("Temperature \u2192");
     JLabel labelInfoTemp = new JLabel(infoTemp);
     JLabel labelHumi = new JLabel("Humidity");
     JLabel labelInfoHumi = new JLabel(infoHumi);
@@ -107,9 +107,9 @@ public class GUIGlobalInfo extends JFrame {
 //
         //buttonGraph1.setBackground(Color.green);
         ImageIcon icon = new ImageIcon("src/image/Graph.png");
-        Image img = icon.getImage() ;
-        Image newimg = img.getScaledInstance( 70, 30,  java.awt.Image.SCALE_SMOOTH ) ;
-        icon = new ImageIcon( newimg );
+//        Image img = icon.getImage() ;
+//        Image newimg = img.getScaledInstance( 70, 30,  java.awt.Image.SCALE_SMOOTH ) ;
+//        icon = new ImageIcon( newimg );
 
         buttonGraph1.setBounds(165, 250, icon.getIconWidth(), icon.getIconHeight());
         buttonGraph1.setIcon(icon);
