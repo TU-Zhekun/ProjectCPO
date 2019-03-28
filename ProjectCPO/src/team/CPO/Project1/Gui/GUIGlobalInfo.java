@@ -133,7 +133,9 @@ public class GUIGlobalInfo extends JFrame {
         //buttonGraph2.setBackground(Color.green);
 
         buttonGraph2.setBounds(455, 250, 120, 30);
-        buttonGraph2.setText("Graph \\u2192");
+        buttonGraph2.setText("Graph\u2192");
+        buttonGraph2.setFont(new Font("Malgun Gothic", 2, 20));
+        buttonGraph2.setForeground(white);
         //不绘制边框
         buttonGraph2.setBorderPainted(false);
         //设置边框为空
