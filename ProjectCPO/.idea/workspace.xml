@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f65cdfa5-845a-4a83-9c6f-44028e8abe3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Sensor.data" beforeDir="false" afterPath="$PROJECT_DIR$/data/Sensor.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphHumi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphTemp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Test/MainTestTZK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/MainTestTZK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGraph.java" afterDir="false" />
-    </list>
+    <list default="true" id="f65cdfa5-845a-4a83-9c6f-44028e8abe3b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +213,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="56" />
     <option name="y" value="126" />
     <option name="width" value="1920" />
@@ -306,7 +298,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555084348199" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555970002007" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -464,12 +456,12 @@
       <workItem from="1553325910714" duration="4836000" />
       <workItem from="1553331650435" duration="19701000" />
       <workItem from="1553709221778" duration="111000" />
-      <workItem from="1555072070623" duration="6200000" />
+      <workItem from="1555072070623" duration="6816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130502000" />
+    <option name="totallyTimeSpent" value="131118000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,7 +474,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.17426273" />
       <window_info id="Structure" order="1" sideWeight="0.50208336" side_tool="true" weight="0.11394102" />
@@ -494,7 +485,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.6561662" weight="0.43575418" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6635389" visible="true" weight="0.1829609" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6635389" weight="0.1829609" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49597856" weight="0.33519554" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
