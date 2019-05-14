@@ -1,9 +1,7 @@
 package team.CPO.Project1.Test;
 
-import team.CPO.Project1.App.FakeSensor;
 import team.CPO.Project1.App.Sensor;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;

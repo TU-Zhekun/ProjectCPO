@@ -2,6 +2,9 @@ package team.CPO.Project1.Gui;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionListener;
+import java.net.http.WebSocket;
+
 /**
  * GUI of global information
  * time, temperature, humidity
@@ -127,6 +130,11 @@ public class GUIGlobalInfo extends JFrame {
         //设置手形图标变换
         buttonGraph1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         buttonGraph1.setContentAreaFilled(false);
+//        buttonGraph1.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//
+//            });
         this.add(buttonGraph1);
 
 

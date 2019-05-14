@@ -1,6 +1,5 @@
 package team.CPO.Project1.Test;
 
-import team.CPO.Project1.App.FakeSensor;
 import team.CPO.Project1.Gui.GUIGlobalInfo;
 import team.CPO.Project1.App.Sensor;
 

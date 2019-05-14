@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f65cdfa5-845a-4a83-9c6f-44028e8abe3b" name="Default Changelist" comment="" />
+    <list default="true" id="f65cdfa5-845a-4a83-9c6f-44028e8abe3b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/App/FakeSensor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGlobalInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGlobalInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Test/TestSaveTZK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/TestSaveTZK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,31 +27,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1482">
-              <caret line="88" lean-forward="true" selection-start-line="85" selection-end-line="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/TestSaveTZK.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+            <state relative-caret-position="361">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,10 +39,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/TestSave1.java">
+        <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/GUIGraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
+            <state relative-caret-position="171">
+              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ClientHttp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/HelloWorldSwing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -65,19 +68,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadTestSave.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="304">
               <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGlobalInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+            <state relative-caret-position="307">
+              <caret line="136" column="17" lean-forward="true" selection-start-line="132" selection-start-column="10" selection-end-line="136" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5447#5448#0" expanded="true" />
+                <element signature="e#5534#5535#0" expanded="true" />
+                <element signature="e#5675#5676#0" expanded="true" />
+                <element signature="e#5810#5811#0" expanded="true" />
+                <element signature="e#5945#5946#0" expanded="true" />
+                <element signature="e#6081#6082#0" expanded="true" />
+                <element signature="e#6216#6217#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,7 +96,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/MainTestTZK.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
+            <state relative-caret-position="817">
               <caret line="44" column="27" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -98,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/Sensor.data">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="1296" column="44" lean-forward="true" selection-start-line="1296" selection-start-column="44" selection-end-line="1296" selection-end-column="44" />
+            <state relative-caret-position="24624">
+              <caret line="1296" column="44" selection-start-line="1296" selection-start-column="44" selection-end-line="1296" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -107,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadTest2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="76">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding>
                 <element signature="e#111#112#0" expanded="true" />
                 <element signature="e#150#151#0" expanded="true" />
@@ -120,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -192,18 +202,18 @@
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/Test1.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadTestSave.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/App/FakeSensor.java" />
-        <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/TestSaveTZK.java" />
-        <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/GUIGraphTest.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/App/Sensor.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIWelcome.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUISetting.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphHumi.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphTemp.java" />
-        <option value="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGlobalInfo.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphTest.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGraph.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/MainTestTZK.java" />
+        <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java" />
+        <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/TestSaveTZK.java" />
+        <option value="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGlobalInfo.java" />
       </list>
     </option>
   </component>
@@ -213,9 +223,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="56" />
-    <option name="y" value="126" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="55" />
+    <option name="y" value="125" />
     <option name="width" value="1920" />
     <option name="height" value="1040" />
   </component>
@@ -225,6 +235,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,7 +301,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -298,7 +308,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555970002007" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557834801699" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -457,11 +467,12 @@
       <workItem from="1553331650435" duration="19701000" />
       <workItem from="1553709221778" duration="111000" />
       <workItem from="1555072070623" duration="6816000" />
+      <workItem from="1557833890822" duration="908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131118000" />
+    <option name="totallyTimeSpent" value="132026000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -474,8 +485,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.17426273" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.17627347" />
       <window_info id="Structure" order="1" sideWeight="0.50208336" side_tool="true" weight="0.11394102" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -484,8 +496,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.50208336" side_tool="true" weight="0.11394102" />
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.6561662" weight="0.43575418" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6635389" weight="0.1829609" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.655496" weight="0.43575418" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6628686" visible="true" weight="0.1829609" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49597856" weight="0.33519554" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -494,7 +506,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32960895" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.33646113" side_tool="true" visible="true" weight="0.1829609" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.33713138" side_tool="true" visible="true" weight="0.1829609" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.47520107" weight="0.3226257" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -577,27 +589,6 @@
     <entry file="jar://D:/JavaJDK11/lib/src.zip!/java.base/java/lang/Runnable.java" />
     <entry file="file://$PROJECT_DIR$/persons.data" />
     <entry file="file://$PROJECT_DIR$/data/persons.data" />
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ClientHttp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/HelloWorldSwing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/GUIGraphTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/App/FakeSensor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -673,74 +664,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="e#111#112#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphTemp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1558">
-          <caret line="82" column="1" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3110#3111#0" expanded="true" />
-            <element signature="e#3165#3166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/Sensor.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="1296" column="44" lean-forward="true" selection-start-line="1296" selection-start-column="44" selection-end-line="1296" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphHumi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="79" column="47" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
-          <folding>
-            <element signature="e#3108#3109#0" expanded="true" />
-            <element signature="e#3163#3164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGlobalInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="88" lean-forward="true" selection-start-line="85" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphTemp.java" />
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphHumi.java" />
     <entry file="jar://D:/JavaJDK11/lib/src.zip!/java.base/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -748,10 +673,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="88" selection-start-line="85" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="209">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -760,14 +692,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/TestSave1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
+        <state relative-caret-position="1349">
           <caret line="71" column="2" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadTestSave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/MainTestTZK.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
+        <state relative-caret-position="817">
           <caret line="44" column="27" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -775,19 +714,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadTestSave.java">
+    <entry file="file://$PROJECT_DIR$/data/Sensor.data">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="24624">
+          <caret line="1296" column="44" selection-start-line="1296" selection-start-column="44" selection-end-line="1296" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/TestSaveTZK.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="59" column="27" lean-forward="true" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+        <state relative-caret-position="361">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/GUIGraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/ClientHttp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Test/HelloWorldSwing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGlobalInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="136" column="17" lean-forward="true" selection-start-line="132" selection-start-column="10" selection-end-line="136" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5447#5448#0" expanded="true" />
+            <element signature="e#5534#5535#0" expanded="true" />
+            <element signature="e#5675#5676#0" expanded="true" />
+            <element signature="e#5810#5811#0" expanded="true" />
+            <element signature="e#5945#5946#0" expanded="true" />
+            <element signature="e#6081#6082#0" expanded="true" />
+            <element signature="e#6216#6217#0" expanded="true" />
           </folding>
         </state>
       </provider>
