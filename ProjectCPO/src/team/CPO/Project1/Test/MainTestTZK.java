@@ -8,7 +8,16 @@ import team.CPO.Project1.Gui.*;
  *
  */
 public class MainTestTZK {
+
+//    public GUIWelcome guiWelcome;
+
+
     public static void main(String[] args) {
+
+//        Thread threadSet =
+//                new ThreadSet();
+//        threadSet.start();
+
         Sensor sensor1 = new Sensor();
         GUIWelcome guiWelcome = new GUIWelcome();
         guiWelcome.showGUI();
@@ -45,4 +54,12 @@ public class MainTestTZK {
         Thread threadTestSave = new ThreadTestSave();
         threadTestSave.start();
     }
+
+//    public void hideGuiWelcome(){
+////        GUIWelcome guiWelcome = new GUIWelcome();
+//        ThreadSet.guiWelcome.setVisible(true);
+//    }
+
 }
+
+

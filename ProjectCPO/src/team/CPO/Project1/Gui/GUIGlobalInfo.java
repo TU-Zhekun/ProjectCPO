@@ -1,7 +1,10 @@
 package team.CPO.Project1.Gui;
 
+import team.CPO.Project1.Test.MainTestTZK;
+
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.net.http.WebSocket;
 
@@ -130,12 +133,12 @@ public class GUIGlobalInfo extends JFrame {
         //设置手形图标变换
         buttonGraph1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         buttonGraph1.setContentAreaFilled(false);
-//        buttonGraph1.addActionListener(new ActionListener() {
-//            @Override
-//            public void actionPerformed(ActionEvent e) {
-//
-//            });
         this.add(buttonGraph1);
+        buttonGraph1.addActionListener(listenerBG1);
+//        buttonGraph1.addActionListener(new ActionListener());
+
+
+
 
 
         //buttonGraph2.setBackground(Color.green);
@@ -188,6 +191,26 @@ public class GUIGlobalInfo extends JFrame {
     public void setTextLabelInfoHumi(String text) {
         labelInfoHumi.setText(text);
     }
+
+//    @Override
+//    public void actionPerformed(ActionEvent e) {
+//        MainTestTZK mainTestTZK = new MainTestTZK();
+//        GUIWelcome guiWelcome = new GUIWelcome();
+//        guiWelcome.showGUI();
+//    }
+
+    ActionListener listenerBG1 = new ActionListener() {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            // 进行逻辑处理即可
+            System.out.println("触发了事件BG1");
+            MainTestTZK mainTestTZK = new MainTestTZK();
+//            mainTestTZK.hideGuiWelcome();
+//          GUIWelcome guiWelcome = new GUIWelcome();
+//          guiWelcome.showGUI();
+
+        }
+    };
 
     public static void main(String[] args) {
         GUIGlobalInfo guiGlobalInfo = new GUIGlobalInfo("null_1",
