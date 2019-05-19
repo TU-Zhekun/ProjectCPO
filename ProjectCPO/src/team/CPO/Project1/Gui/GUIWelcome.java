@@ -1,3 +1,7 @@
+package team.CPO.Project1.Gui;
+
+import team.CPO.Project1.App.Sensor;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -16,13 +20,16 @@ public class GUIWelcome extends JFrame{
     Font mg = new Font("Malgun Gothic",1,40);
 
     //create labelWelcomeText1
+    Sensor sensor1 = new Sensor();
     JLabel labelWelcomeText1 = new JLabel("Hello");
+    JLabel labelIPInfo = new JLabel("Please set IP Adresse: "+sensor1.adrIP);
     JButton buttonSetting = new JButton("Setting");
 
     public GUIWelcome() {
 
-        this.setBounds(300, 200, 600, 400);
+        this.setBounds(300, 200, 385, 425);
         this.getContentPane().setBackground(bgColor);
+        this.setResizable(false);
         this.setLayout(null);
 
 
@@ -31,9 +38,14 @@ public class GUIWelcome extends JFrame{
         labelWelcomeText1.setForeground(white);
         labelWelcomeText1.setFont(impactTitle);
         this.add(labelWelcomeText1);
+//
+        labelIPInfo.setBounds(8, 30,300,30);
+        labelIPInfo.setForeground(white);
+        labelIPInfo.setFont(new Font("Impact",0,15));
+        this.add(labelIPInfo);
 
         //setup buttonSetting
-        buttonSetting.setBounds(10,250,400,40);
+        buttonSetting.setBounds(10,250,200,40);
         this.add(buttonSetting);
     }
 
@@ -45,6 +57,11 @@ public class GUIWelcome extends JFrame{
     //hide this GUI
     public void hideGUI() {
         this.setVisible(false);
+    }
+
+    public static void main(String[] args) {
+        GUIWelcome guiWelcome = new GUIWelcome();
+        guiWelcome.showGUI();
     }
 
 }
