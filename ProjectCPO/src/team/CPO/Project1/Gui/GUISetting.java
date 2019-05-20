@@ -123,7 +123,7 @@ public class GUISetting extends JFrame{
 
         //setup textFieldTemp
         textFieldTemp = new JTextField(" Temperature");
-        textFieldTemp.setBounds(200,345,200,30);
+        textFieldTemp.setBounds(200,260,200,30);
         textFieldTemp.setForeground(white);
         textFieldTemp.setBackground(grey);
         textFieldTemp.setBorder(null);
@@ -132,7 +132,7 @@ public class GUISetting extends JFrame{
 
         //setup textFieldHumi
         textFieldHumi = new JTextField(" Humidity");
-        textFieldHumi.setBounds(200,345,200,30);
+        textFieldHumi.setBounds(200,310,200,30);
         textFieldHumi.setForeground(white);
         textFieldHumi.setBackground(grey);
         textFieldHumi.setBorder(null);

@@ -11,7 +11,19 @@ public class ThreadRefreshGraph extends Thread {
     public ThreadRefreshGraph(GUIGraphTest guiGraphTest1, GUIGraphTest guiGraphTest2, Sensor sensor1) {
         this.guiGraphTest1 = guiGraphTest1;
         this.guiGraphTest2 = guiGraphTest2;
+        this.sensor1 = sensor1;
+    }
+
+    public ThreadRefreshGraph(GUIGraphTest guiGraphTest1, int a, Sensor sensor1) {
+        this.guiGraphTest1 = guiGraphTest1;
+//        this.guiGraphTest2 = guiGraphTest2;
 //        guiGraphTest2.
+        this.sensor1 = sensor1;
+    }
+
+    public ThreadRefreshGraph(int a, GUIGraphTest guiGraphTest2, Sensor sensor1) {
+//        this.guiGraphTest1 = guiGraphTest1;
+        this.guiGraphTest2 = guiGraphTest2;
         this.sensor1 = sensor1;
     }
 
