@@ -205,7 +205,6 @@ public class GUIGlobalInfo extends JFrame {
         public void actionPerformed(ActionEvent e) {
             // 以下为触发事件内容
             System.out.println("触发了事件BG1");
-            MainTestTZK mainTestTZK = new MainTestTZK();
 //            mainTestTZK.hideGuiWelcome();
 //          GUIWelcome guiWelcome = new GUIWelcome();
 //          guiWelcome.showGUI();
@@ -213,11 +212,11 @@ public class GUIGlobalInfo extends JFrame {
         }
     };
 
-    public static void main(String[] args) {
-        GUIGlobalInfo guiGlobalInfo = new GUIGlobalInfo("null_1",
-                "00:00", "00.0\u00B0C",
-                "00.0%", "14 JUL 2089");
-        guiGlobalInfo.showGUI();
-    }
+//    public static void main(String[] args) {
+//        GUIGlobalInfo guiGlobalInfo = new GUIGlobalInfo("null_1",
+//                "00:00", "00.0\u00B0C",
+//                "00.0%", "14 JUL 2089");
+//        guiGlobalInfo.showGUI();
+//    }
 
 }

@@ -22,6 +22,9 @@ public class MainTestTZK {
         GUIWelcome guiWelcome = new GUIWelcome();
         guiWelcome.showGUI();
 
+        GUIGraphTest guiGraphTest1 = new GUIGraphTest("Temperature");
+        GUIGraphTest guiGraphTest2 = new GUIGraphTest("Humidity");
+
         GUIGlobalInfo guiGlobalInfo = new GUIGlobalInfo("null_1",
                 "00:00","00.0\u00B0C",
                 "00.0%","14 JUL 2089");
@@ -38,8 +41,7 @@ public class MainTestTZK {
         }
 
 
-        GUIGraphTest guiGraphTest1 = new GUIGraphTest("Temperature");
-        GUIGraphTest guiGraphTest2 = new GUIGraphTest("Humidity");
+
 
         Thread threadRefreshGlobalInfo =
                 new ThreadRefreshGlobalInfo(guiGlobalInfo,sensor1);
