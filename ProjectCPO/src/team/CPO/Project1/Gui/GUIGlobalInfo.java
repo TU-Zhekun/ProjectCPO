@@ -48,6 +48,7 @@ public class GUIGlobalInfo extends JFrame {
         this.getContentPane().setBackground(bgColor);
         this.setLayout(null);
         this.setResizable(false);
+        this.setTitle("Main Window");
         //this.setDefaultCloseOperation(EXIT_ON_CLOSE);   //关闭退出程序
         //frame.setVisible(true);
 
@@ -202,9 +203,8 @@ public class GUIGlobalInfo extends JFrame {
     ActionListener listenerBG1 = new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
-            // 进行逻辑处理即可
+            // 以下为触发事件内容
             System.out.println("触发了事件BG1");
-            MainTestTZK mainTestTZK = new MainTestTZK();
 //            mainTestTZK.hideGuiWelcome();
 //          GUIWelcome guiWelcome = new GUIWelcome();
 //          guiWelcome.showGUI();
@@ -212,11 +212,11 @@ public class GUIGlobalInfo extends JFrame {
         }
     };
 
-    public static void main(String[] args) {
-        GUIGlobalInfo guiGlobalInfo = new GUIGlobalInfo("null_1",
-                "00:00", "00.0\u00B0C",
-                "00.0%", "14 JUL 2089");
-        guiGlobalInfo.showGUI();
-    }
+//    public static void main(String[] args) {
+//        GUIGlobalInfo guiGlobalInfo = new GUIGlobalInfo("null_1",
+//                "00:00", "00.0\u00B0C",
+//                "00.0%", "14 JUL 2089");
+//        guiGlobalInfo.showGUI();
+//    }
 
 }
