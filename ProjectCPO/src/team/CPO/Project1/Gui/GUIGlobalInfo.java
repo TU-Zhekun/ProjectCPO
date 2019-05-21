@@ -136,7 +136,26 @@ public class GUIGlobalInfo extends JFrame {
         buttonGraph1.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         buttonGraph1.setContentAreaFilled(false);
         this.add(buttonGraph1);
-        buttonGraph1.addActionListener(new listenerBG1());
+        buttonGraph1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // 以下为触发事件内容
+                System.out.println("触发了事件BG1");
+                GUIGraphTest guiGraphTest1 = new GUIGraphTest("Temperature");
+                try {
+                    Sensor sensor1 = new Sensor();
+
+                    Thread threadRefreshGraph = new ThreadRefreshGraph(guiGraphTest1, 0, sensor1);
+
+                    threadRefreshGraph.start();
+                } catch (Exception ex) {
+
+                }
+//            mainTestTZK.hideGuiWelcome();
+//          GUIWelcome guiWelcome = new GUIWelcome();
+//          guiWelcome.showGUI();
+            }
+        });
 //        buttonGraph1.addActionListener(new ActionListener());
 
 
@@ -154,7 +173,27 @@ public class GUIGlobalInfo extends JFrame {
         buttonGraph2.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
         buttonGraph2.setContentAreaFilled(false);
         this.add(buttonGraph2);
-        buttonGraph1.addActionListener(new listenerBG2());
+        buttonGraph2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                //            // 以下为触发事件内容
+                System.out.println("触发了事件BG2");
+//            GUIGraphTest guiGraphTest2 = new GUIGraphTest("Humidity");
+//            try {
+//                Sensor sensor1 = new Sensor();
+//
+//                Thread threadRefreshGraph = new ThreadRefreshGraph(0, guiGraphTest2, sensor1);
+//
+//                threadRefreshGraph.start();
+//            }catch(Exception ex){
+//
+//            }
+//            mainTestTZK.hideGuiWelcome();
+//          GUIWelcome guiWelcome = new GUIWelcome();
+//          guiWelcome.showGUI();
+
+            }
+        });
     }
 
     //show this GUI
@@ -202,49 +241,49 @@ public class GUIGlobalInfo extends JFrame {
 
     //    ActionListener listenerBG1 = new ActionListener() {
 
-    class listenerBG1 implements ActionListener {
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            // 以下为触发事件内容
-            System.out.println("触发了事件BG1");
-            GUIGraphTest guiGraphTest1 = new GUIGraphTest("Temperature");
-            try {
-                Sensor sensor1 = new Sensor();
-
-                Thread threadRefreshGraph = new ThreadRefreshGraph(guiGraphTest1, 0, sensor1);
-
-                threadRefreshGraph.start();
-            } catch (Exception ex) {
-
-            }
-//            mainTestTZK.hideGuiWelcome();
-//          GUIWelcome guiWelcome = new GUIWelcome();
-//          guiWelcome.showGUI();
-        }
-    }
-
-
-    class listenerBG2 implements /*ActionListener listenerBG2 = new */ActionListener {
-        @Override
-        public void actionPerformed(ActionEvent e2) {
-            // 以下为触发事件内容
-            System.out.println("触发了事件BG2");
-//            GUIGraphTest guiGraphTest2 = new GUIGraphTest("Humidity");
+//    class listenerBG1 implements ActionListener {
+//        @Override
+//        public void actionPerformed(ActionEvent e) {
+//            // 以下为触发事件内容
+//            System.out.println("触发了事件BG1");
+//            GUIGraphTest guiGraphTest1 = new GUIGraphTest("Temperature");
 //            try {
 //                Sensor sensor1 = new Sensor();
 //
-//                Thread threadRefreshGraph = new ThreadRefreshGraph(0, guiGraphTest2, sensor1);
+//                Thread threadRefreshGraph = new ThreadRefreshGraph(guiGraphTest1, 0, sensor1);
 //
 //                threadRefreshGraph.start();
-//            }catch(Exception ex){
+//            } catch (Exception ex) {
 //
 //            }
-//            mainTestTZK.hideGuiWelcome();
-//          GUIWelcome guiWelcome = new GUIWelcome();
-//          guiWelcome.showGUI();
+////            mainTestTZK.hideGuiWelcome();
+////          GUIWelcome guiWelcome = new GUIWelcome();
+////          guiWelcome.showGUI();
+//        }
+//    }
 
-        }
-    }
+
+//    class listenerBG2 implements /*ActionListener listenerBG2 = new */ActionListener {
+//        @Override
+//        public void actionPerformed(ActionEvent e2) {
+//            // 以下为触发事件内容
+//            System.out.println("触发了事件BG2");
+////            GUIGraphTest guiGraphTest2 = new GUIGraphTest("Humidity");
+////            try {
+////                Sensor sensor1 = new Sensor();
+////
+////                Thread threadRefreshGraph = new ThreadRefreshGraph(0, guiGraphTest2, sensor1);
+////
+////                threadRefreshGraph.start();
+////            }catch(Exception ex){
+////
+////            }
+////            mainTestTZK.hideGuiWelcome();
+////          GUIWelcome guiWelcome = new GUIWelcome();
+////          guiWelcome.showGUI();
+//
+//        }
+//    }
 
     ;
 
