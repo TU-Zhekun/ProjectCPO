@@ -178,16 +178,16 @@ public class GUIGlobalInfo extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 //            // 以下为触发事件内容
                 System.out.println("触发了事件BG2");
-//            GUIGraphTest guiGraphTest2 = new GUIGraphTest("Humidity");
-//            try {
-//                Sensor sensor1 = new Sensor();
-//
-//                Thread threadRefreshGraph = new ThreadRefreshGraph(0, guiGraphTest2, sensor1);
-//
-//                threadRefreshGraph.start();
-//            }catch(Exception ex){
-//
-//            }
+            GUIGraphTest guiGraphTest2 = new GUIGraphTest("Humidity");
+            try {
+                Sensor sensor1 = new Sensor();
+
+                Thread threadRefreshGraph = new ThreadRefreshGraph(0, guiGraphTest2, sensor1);
+
+                threadRefreshGraph.start();
+            }catch(Exception ex){
+
+            }
 //            mainTestTZK.hideGuiWelcome();
 //          GUIWelcome guiWelcome = new GUIWelcome();
 //          guiWelcome.showGUI();
