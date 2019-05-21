@@ -36,10 +36,15 @@ public class ThreadRefreshGraph extends Thread {
             try {
                 i++;
                 refreshTemp(i);
-                refreshHumi(i);
             } catch (Exception ex) {
-                System.out.println("addValue failed");
+                System.out.println("Temp addValue failed");
                 System.out.println(ex.toString());
+            }
+
+            try{
+                refreshHumi(i);
+            }catch (Exception e){
+                System.out.println("Humi addValue failed");
             }
 
             try {
@@ -63,7 +68,7 @@ public class ThreadRefreshGraph extends Thread {
     private void refreshHumi(int i) {
         guiGraphTest2.mDataset.addValue(sensor1.getHumi(),
                 "Second", Integer.valueOf(2018 + i));
-        System.out.println("ok");
+        System.out.println("ok+++++++++");
         if (i > 13) {
 //                    guiGraphTest1.mDataset.removeValue("First", 2018 + i - 13);
             guiGraphTest2.mDataset.removeValue("Second", 2018 + i - 13);

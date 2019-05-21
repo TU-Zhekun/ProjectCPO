@@ -32,10 +32,11 @@ public class GUISetting extends JFrame{
     JTextField textFieldStep;
     JTextField textFieldTemp;
     JTextField textFieldHumi;
+    JButton buttonSubmit;
 
     public GUISetting() {
         //setup this GUI
-        this.setBounds(500,400,385,425);
+        this.setBounds(500,350,385,450);
         this.setLayout(null);
         this.getContentPane().setBackground(bgColor);
         this.setResizable(false);
@@ -138,6 +139,14 @@ public class GUISetting extends JFrame{
         textFieldHumi.setBorder(null);
         //textField1.setFont(mg);
         this.add(textFieldHumi);
+
+        //setup button submit
+        buttonSubmit = new JButton("Submit");
+        buttonSubmit.setBounds(130,360,100,30);
+        buttonSubmit.setBackground(bgColor);
+        buttonSubmit.setForeground(white);
+        this.add(buttonSubmit);
+
     }
 
     //show this GUI

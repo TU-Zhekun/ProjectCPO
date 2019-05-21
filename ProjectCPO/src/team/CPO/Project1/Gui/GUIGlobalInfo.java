@@ -182,9 +182,9 @@ public class GUIGlobalInfo extends JFrame {
             try {
                 Sensor sensor1 = new Sensor();
 
-                Thread threadRefreshGraph = new ThreadRefreshGraph(0, guiGraphTest2, sensor1);
+                Thread threadRefreshGraph2 = new ThreadRefreshGraph(0, guiGraphTest2, sensor1);
 
-                threadRefreshGraph.start();
+                threadRefreshGraph2.start();
             }catch(Exception ex){
 
             }

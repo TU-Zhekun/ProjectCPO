@@ -85,6 +85,8 @@ public class GUISignIn extends JFrame {
         //setup button
         button = new JButton("Login");
         button.setBounds(90, 300, 200, 40);
+        button.setBackground(bgColor);
+        button.setForeground(white);
         this.add(button);
         button.addActionListener(l);
 
@@ -112,6 +114,7 @@ public class GUISignIn extends JFrame {
             System.out.println("触发了事件xxx");
             if (textField1.getText().equals("ZTU") && textField2.getText().equals("88880000")) {
                 System.out.println("okokokok");
+                setVisible(false);
                 GUISetting guiSetting = new GUISetting();
                 guiSetting.setVisible(true);
             } else {

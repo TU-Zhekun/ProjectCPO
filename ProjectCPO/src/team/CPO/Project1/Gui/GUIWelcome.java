@@ -48,7 +48,9 @@ public class GUIWelcome extends JFrame {
         this.add(labelIPInfo);
 
         //setup buttonSetting
-        buttonSetting.setBounds(10, 250, 200, 40);
+        buttonSetting.setBounds(80, 250, 200, 40);
+        buttonSetting.setBackground(bgColor);
+        buttonSetting.setForeground(white);
         this.add(buttonSetting);
         buttonSetting.addActionListener(l);
     }
