@@ -4,7 +4,6 @@
     <list default="true" id="f65cdfa5-845a-4a83-9c6f-44028e8abe3b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/Sensor.data" beforeDir="false" afterPath="$PROJECT_DIR$/data/Sensor.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUISetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUISetting.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/App/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="494">
+              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -103,7 +102,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUISetting.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -215,13 +214,13 @@
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGlobalInfo.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/TestSaveTZK.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadSet.java" />
-        <option value="$PROJECT_DIR$/src/team/CPO/Project1/App/main.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/MainTestTZK.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGlobalInfo.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Test/ThreadRefreshGraph.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIWelcome.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUISignIn.java" />
         <option value="$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUISetting.java" />
+        <option value="$PROJECT_DIR$/src/team/CPO/Project1/App/main.java" />
       </list>
     </option>
   </component>
@@ -311,7 +310,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558439106254" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558444090796" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -479,12 +478,12 @@
       <workItem from="1558274330034" duration="3314000" />
       <workItem from="1558385364826" duration="280000" />
       <workItem from="1558392389314" duration="3670000" />
-      <workItem from="1558436129370" duration="2597000" />
+      <workItem from="1558436129370" duration="5111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148581000" />
+    <option name="totallyTimeSpent" value="151095000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -659,13 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/Sensor.data">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31502">
@@ -680,13 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/App/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUISignIn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -694,13 +679,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGlobalInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="138" column="41" lean-forward="true" selection-start-line="138" selection-start-column="41" selection-end-line="138" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -720,6 +698,27 @@
             <element signature="e#5585#5586#0" expanded="true" />
             <element signature="e#5671#5672#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/Gui/GUIGlobalInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="138" column="41" lean-forward="true" selection-start-line="138" selection-start-column="41" selection-end-line="138" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/team/CPO/Project1/App/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
         </state>
       </provider>
     </entry>
