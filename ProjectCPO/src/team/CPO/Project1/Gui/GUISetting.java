@@ -2,6 +2,8 @@ package team.CPO.Project1.Gui;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /**
  * GUI Setting
@@ -32,10 +34,11 @@ public class GUISetting extends JFrame{
     JTextField textFieldStep;
     JTextField textFieldTemp;
     JTextField textFieldHumi;
+    JButton buttonSubmit;
 
     public GUISetting() {
         //setup this GUI
-        this.setBounds(500,400,385,425);
+        this.setBounds(500,350,385,450);
         this.setLayout(null);
         this.getContentPane().setBackground(bgColor);
         this.setResizable(false);
@@ -123,7 +126,7 @@ public class GUISetting extends JFrame{
 
         //setup textFieldTemp
         textFieldTemp = new JTextField(" Temperature");
-        textFieldTemp.setBounds(200,345,200,30);
+        textFieldTemp.setBounds(200,260,200,30);
         textFieldTemp.setForeground(white);
         textFieldTemp.setBackground(grey);
         textFieldTemp.setBorder(null);
@@ -132,12 +135,26 @@ public class GUISetting extends JFrame{
 
         //setup textFieldHumi
         textFieldHumi = new JTextField(" Humidity");
-        textFieldHumi.setBounds(200,345,200,30);
+        textFieldHumi.setBounds(200,310,200,30);
         textFieldHumi.setForeground(white);
         textFieldHumi.setBackground(grey);
         textFieldHumi.setBorder(null);
         //textField1.setFont(mg);
         this.add(textFieldHumi);
+
+        //setup button submit
+        buttonSubmit = new JButton("Submit");
+        buttonSubmit.setBounds(130,360,100,30);
+        buttonSubmit.setBackground(bgColor);
+        buttonSubmit.setForeground(white);
+        this.add(buttonSubmit);
+        buttonSubmit.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                setVisible(false);
+            }
+        });
+
     }
 
     //show this GUI

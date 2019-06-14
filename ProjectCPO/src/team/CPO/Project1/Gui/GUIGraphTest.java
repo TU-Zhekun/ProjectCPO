@@ -14,10 +14,13 @@ import org.jfree.data.category.DefaultCategoryDataset;
 
 public class GUIGraphTest {
     String valueAxisLabel = "default";
+    StandardChartTheme mChartTheme;
+    public ChartFrame mChartFrame;
 
     public DefaultCategoryDataset mDataset = new DefaultCategoryDataset();
+
     public GUIGraphTest(String valueAxisLabel) {
-        StandardChartTheme mChartTheme = new StandardChartTheme("CN");
+        mChartTheme = new StandardChartTheme("CN");
 
         //set GUI color reference
         Color bgColor = new Color(20, 29, 39);
@@ -58,7 +61,7 @@ public class GUIGraphTest {
         mPlot.setBackgroundPaint(white);
         mPlot.setRangeGridlinePaint(bgColor);//背景底部横虚线
         mPlot.setOutlinePaint(bgColor);//边界线
-        ChartFrame mChartFrame = new ChartFrame("Graph", mChart);
+        mChartFrame = new ChartFrame("Graph", mChart);
         mChartFrame.pack();
         mChartFrame.setVisible(true);
     }
@@ -79,12 +82,16 @@ public class GUIGraphTest {
         return mDataset;
     }
 
+//    public void setVisible(){
+//        mChartFrame.setVisible(true);
+//    }
 //    public String setValueAxisLabel(String valueAxisLabel){
 //        this.valueAxisLabel = valueAxisLabel;
 //    }
 
 //    public static void main(String[] args) {
-//        GUIGraphTest test1 = new GUIGraphTest();
+//        GUIGraphTest test1 = new GUIGraphTest("Temperature");
+////        test1.mChartFrame.setVisible(false);
 //    }
-
+//
 }
